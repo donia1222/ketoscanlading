@@ -390,6 +390,7 @@ function nextSlide() {
  */
 function initLanguageSelector() {
     const langButtons = document.querySelectorAll('.lang-btn');
+    const supportedLangs = ['en', 'es', 'de'];
 
     langButtons.forEach(btn => {
         btn.addEventListener('click', () => {
@@ -409,7 +410,7 @@ function initLanguageSelector() {
         });
     });
 
-    // Check saved preference
+    // Check saved preference first
     const savedLang = localStorage.getItem('ketobarcode-lang');
     if (savedLang && translations[savedLang]) {
         currentLang = savedLang;
@@ -417,7 +418,38 @@ function initLanguageSelector() {
             btn.classList.toggle('active', btn.dataset.lang === savedLang);
         });
         updatePageLanguage(savedLang);
+        return;
     }
+
+    // Auto-detect browser language
+    const browserLang = detectBrowserLanguage(supportedLangs);
+    if (browserLang && browserLang !== 'en') {
+        currentLang = browserLang;
+        langButtons.forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.lang === browserLang);
+        });
+        updatePageLanguage(browserLang);
+    }
+}
+
+/**
+ * Detect browser language
+ */
+function detectBrowserLanguage(supportedLangs) {
+    // Get browser languages (array of preferred languages)
+    const browserLangs = navigator.languages || [navigator.language || navigator.userLanguage];
+
+    for (const lang of browserLangs) {
+        // Extract primary language code (e.g., 'es-ES' -> 'es', 'de-DE' -> 'de')
+        const primaryLang = lang.split('-')[0].toLowerCase();
+
+        if (supportedLangs.includes(primaryLang)) {
+            return primaryLang;
+        }
+    }
+
+    // Default to English
+    return 'en';
 }
 
 /**
