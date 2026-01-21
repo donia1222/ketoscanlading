@@ -3,6 +3,7 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
+
     <!-- Homepage - English (default) -->
     <url>
         <loc>https://keto-scan.com/</loc>
