@@ -857,6 +857,13 @@ function selectContactType(element, type) {
 /**
  * Contact Form Submission
  */
+/**
+ * Vercel Analytics
+ */
+if (typeof window !== 'undefined') {
+    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+}
+
 document.getElementById('contactForm')?.addEventListener('submit', function(e) {
     e.preventDefault();
 
