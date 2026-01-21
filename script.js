@@ -110,8 +110,7 @@ const translations = {
         'footer.contact': 'Contact',
         'footer.support': 'Support',
         'footer.language': 'Language:',
-        'footer.rights': 'All rights reserved.',
-        'footer.images': 'Some images provided by Pexels.com'
+        'footer.rights': 'All rights reserved.'
     },
     es: {
         // Nav
@@ -218,8 +217,7 @@ const translations = {
         'footer.contact': 'Contacto',
         'footer.support': 'Soporte',
         'footer.language': 'Idioma:',
-        'footer.rights': 'Todos los derechos reservados.',
-        'footer.images': 'Algunas imágenes proporcionadas por Pexels.com'
+        'footer.rights': 'Todos los derechos reservados.'
     },
     de: {
         // Nav
@@ -326,8 +324,7 @@ const translations = {
         'footer.contact': 'Kontakt',
         'footer.support': 'Support',
         'footer.language': 'Sprache:',
-        'footer.rights': 'Alle Rechte vorbehalten.',
-        'footer.images': 'Einige Bilder bereitgestellt von Pexels.com'
+        'footer.rights': 'Alle Rechte vorbehalten.'
     }
 };
 
