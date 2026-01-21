@@ -14,14 +14,17 @@ const translations = {
         'nav.downloadApp': 'Download App',
 
         // Hero
-        'hero.badge': 'Instant Analysis',
+        'hero.badgeLifetime': 'Pay once, use forever! 🎉',
         'hero.title': 'Keto Scanner: Scan. Analyze. <span class="gradient-text">Decide.</span>',
         'hero.description': 'Instantly discover if a product is compatible with your keto diet. Scan the barcode and get a complete nutritional analysis with a 1 to 5 star rating.',
-        'hero.cta': 'Download for $6',
-        'hero.ctaSecondary': 'See How It Works',
-        'hero.products': 'Products',
-        'hero.starRating': 'Star Rating',
-        'hero.languages': 'Languages',
+        'hero.priceOnce': 'one time',
+        'hero.benefit1': 'No subscriptions',
+        'hero.benefit2': 'Lifetime access',
+        'hero.benefit3': 'Free updates forever',
+        'hero.ctaApple': 'Download on App Store',
+        'hero.ctaGoogle': 'Get on Google Play',
+        'hero.products': '2.8M+ Products',
+        'hero.languages': '3 Languages',
 
         // Features
         'features.badge': 'Features',
@@ -121,14 +124,17 @@ const translations = {
         'nav.downloadApp': 'Descargar App',
 
         // Hero
-        'hero.badge': 'Análisis Instantáneo',
+        'hero.badgeLifetime': '¡Paga una vez, úsala siempre! 🎉',
         'hero.title': 'Keto Scanner: Escanea. Analiza. <span class="gradient-text">Decide.</span>',
         'hero.description': 'Descubre al instante si un producto es compatible con tu dieta keto. Escanea el código de barras y obtén un análisis nutricional completo con rating de 1 a 5 estrellas.',
-        'hero.cta': 'Descargar por $6',
-        'hero.ctaSecondary': 'Ver Cómo Funciona',
-        'hero.products': 'Productos',
-        'hero.starRating': 'Estrellas',
-        'hero.languages': 'Idiomas',
+        'hero.priceOnce': 'pago único',
+        'hero.benefit1': 'Sin suscripciones',
+        'hero.benefit2': 'Acceso de por vida',
+        'hero.benefit3': 'Actualizaciones gratis siempre',
+        'hero.ctaApple': 'Descargar en App Store',
+        'hero.ctaGoogle': 'Obtener en Google Play',
+        'hero.products': '2.8M+ Productos',
+        'hero.languages': '3 Idiomas',
 
         // Features
         'features.badge': 'Funcionalidades',
@@ -228,14 +234,17 @@ const translations = {
         'nav.downloadApp': 'App herunterladen',
 
         // Hero
-        'hero.badge': 'Sofortige Analyse',
+        'hero.badgeLifetime': 'Einmal zahlen, für immer nutzen! 🎉',
         'hero.title': 'Keto Scanner: Scannen. Analysieren. <span class="gradient-text">Entscheiden.</span>',
         'hero.description': 'Entdecken Sie sofort, ob ein Produkt mit Ihrer Keto-Diät kompatibel ist. Scannen Sie den Barcode und erhalten Sie eine vollständige Nährwertanalyse mit 1 bis 5 Sternen.',
-        'hero.cta': 'Für $6 herunterladen',
-        'hero.ctaSecondary': 'Sehen Sie wie es funktioniert',
-        'hero.products': 'Produkte',
-        'hero.starRating': 'Sterne-Bewertung',
-        'hero.languages': 'Sprachen',
+        'hero.priceOnce': 'einmalig',
+        'hero.benefit1': 'Keine Abonnements',
+        'hero.benefit2': 'Lebenslanger Zugang',
+        'hero.benefit3': 'Kostenlose Updates für immer',
+        'hero.ctaApple': 'Im App Store laden',
+        'hero.ctaGoogle': 'Bei Google Play holen',
+        'hero.products': '2,8M+ Produkte',
+        'hero.languages': '3 Sprachen',
 
         // Features
         'features.badge': 'Funktionen',
