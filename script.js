@@ -840,6 +840,35 @@ console.log('%c Scan. Analyze. Decide. ', 'color: #1a5e69; font-size: 14px;');
 console.log('%c Download the app and start your keto journey today! ', 'color: #546E7A; font-size: 12px;');
 
 /**
+ * Smart App Banner (mobile only)
+ */
+(function() {
+    const isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    if (!isMobile) return;
+    if (localStorage.getItem('smartBannerClosed')) return;
+
+    const banner = document.getElementById('smartBanner');
+    const closeBtn = document.getElementById('smartBannerClose');
+    const viewBtn = document.getElementById('smartBannerBtn');
+
+    // Detect iOS vs Android
+    const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    const storeUrl = isIOS
+        ? 'https://apps.apple.com/us/app/keto-barcode-scanner/id6757723290'
+        : 'https://play.google.com/store/apps/details?id=com.lwebch.KetoScanner';
+
+    viewBtn.href = storeUrl;
+    banner.classList.add('show');
+    document.body.classList.add('has-smart-banner');
+
+    closeBtn.addEventListener('click', function() {
+        banner.classList.remove('show');
+        document.body.classList.remove('has-smart-banner');
+        localStorage.setItem('smartBannerClosed', '1');
+    });
+})();
+
+/**
  * Modal Functions
  */
 function openModal(type) {

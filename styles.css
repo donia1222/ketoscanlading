@@ -69,6 +69,98 @@ a.btn-secondary {
 }
 
 /* ============================================
+   Smart App Banner (mobile)
+   ============================================ */
+.smart-banner {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    background: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 12px;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.smart-banner.show {
+    display: flex;
+}
+
+.smart-banner-close {
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #888;
+    cursor: pointer;
+    padding: 0 4px;
+    line-height: 1;
+}
+
+.smart-banner-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.smart-banner-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+}
+
+.smart-banner-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.smart-banner-author {
+    font-size: 12px;
+    color: #888;
+}
+
+.smart-banner-rating {
+    font-size: 11px;
+    color: #FF9500;
+}
+
+.smart-banner-btn {
+    background: #007AFF;
+    color: white;
+    text-decoration: none;
+    padding: 5px 14px;
+    border-radius: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+body.has-smart-banner .navbar {
+    top: 64px !important;
+}
+
+@media (min-width: 769px) {
+    .smart-banner {
+        display: none !important;
+    }
+    body.has-smart-banner .navbar {
+        top: 0 !important;
+    }
+}
+
+/* ============================================
    Navbar
    ============================================ */
 .navbar {
@@ -83,15 +175,17 @@ a.btn-secondary {
     transition: var(--transition);
 }
 
-.navbar .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 70px;
+@media (min-width: 769px) {
+    .navbar .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+    }
 }
 
 .nav-brand {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 10px;
 }
@@ -328,6 +422,7 @@ a.btn-secondary {
     margin-bottom: 24px;
     box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
     animation: pulse-badge 2s ease-in-out infinite;
+    margin-top: 40px;
 }
 
 @keyframes pulse-badge {
