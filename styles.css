@@ -57,6 +57,7 @@ body {
     color: var(--text-dark);
     line-height: 1.6;
     overflow-x: hidden;
+     margin-top: -20px;
 }
 a.btn-secondary {
     display: none;
@@ -207,6 +208,7 @@ body.has-smart-banner .navbar {
     display: flex;
     align-items: center;
     gap: 32px;
+    margin-top: 30px;
 }
 
 .nav-links a {
