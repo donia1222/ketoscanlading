@@ -45,7 +45,7 @@ const translations = {
         'features.community.title': 'Community',
         'features.community.desc': "See other users' recent scans in real time",
         'features.language.title': 'Multi-language',
-        'features.language.desc': 'Available in English, Spanish and German. Switch with one tap',
+        'features.language.desc': 'Available in 10 languages. Switch with one tap',
 
         // How it works
         'howItWorks.badge': 'How It Works',
@@ -159,7 +159,7 @@ const translations = {
         'features.community.title': 'Comunidad',
         'features.community.desc': 'Ve los escaneos recientes de otros usuarios en tiempo real',
         'features.language.title': 'Multi-idioma',
-        'features.language.desc': 'Disponible en Español, Inglés y Alemán. Cambia con un solo toque',
+        'features.language.desc': 'Disponible en 10 idiomas. Cambia con un solo toque',
 
         // How it works
         'howItWorks.badge': 'Cómo Funciona',
@@ -273,7 +273,7 @@ const translations = {
         'features.community.title': 'Community',
         'features.community.desc': 'Sehen Sie die neuesten Scans anderer Benutzer in Echtzeit',
         'features.language.title': 'Mehrsprachig',
-        'features.language.desc': 'Verfügbar auf Deutsch, Englisch und Spanisch. Mit einem Tippen wechseln',
+        'features.language.desc': 'Verfügbar in 10 Sprachen. Mit einem Tippen wechseln',
 
         // How it works
         'howItWorks.badge': 'Wie es funktioniert',
