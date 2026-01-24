@@ -762,9 +762,9 @@ a.btn-secondary {
 }
 
 .feature-card {
-    background: var(--bg-light);
+    background: #e3f2fd;
     padding: 40px 30px;
-    border-radius: var(--border-radius);
+    border-radius: 24px;
     text-align: center;
     transition: var(--transition);
     border: 1px solid transparent;
@@ -2480,7 +2480,8 @@ a.btn-secondary {
     height: 80px;
 }
 
-.keto-question-card {
+.keto-question-card,
+.features-banner-card {
     background: #f0f7f0;
     border-radius: 24px;
     padding: 50px 40px;
@@ -2498,6 +2499,18 @@ a.btn-secondary {
     justify-content: center;
     gap: 12px;
     flex-wrap: wrap;
+}
+
+.features-banner-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 16px;
+}
+
+.features-banner-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-light);
 }
 
 .avocado-emoji {
@@ -2575,12 +2588,21 @@ a.btn-secondary {
 }
 
 @media (max-width: 768px) {
-    .keto-question-card {
+    .keto-question-card,
+    .features-banner-card {
         padding: 35px 25px;
     }
 
     .keto-question-title {
         font-size: 2rem;
+    }
+
+    .features-banner-title {
+        font-size: 1.6rem;
+    }
+
+    .features-banner-subtitle {
+        font-size: 1rem;
     }
 
     .avocado-emoji {
