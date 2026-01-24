@@ -840,6 +840,20 @@ console.log('%c Scan. Analyze. Decide. ', 'color: #1a5e69; font-size: 14px;');
 console.log('%c Download the app and start your keto journey today! ', 'color: #546E7A; font-size: 12px;');
 
 /**
+ * Cookie Notice
+ */
+(function() {
+    if (localStorage.getItem('cookiesAccepted')) return;
+    const notice = document.getElementById('cookieNotice');
+    if (!notice) return;
+    notice.classList.add('show');
+    document.getElementById('cookieAccept').addEventListener('click', function() {
+        notice.classList.remove('show');
+        localStorage.setItem('cookiesAccepted', '1');
+    });
+})();
+
+/**
  * Smart App Banner (mobile only)
  */
 (function() {
