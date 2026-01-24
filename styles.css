@@ -1100,22 +1100,13 @@ body.has-smart-banner .navbar {
 
 .screenshots-carousel {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 24px;
-    padding: 20px 0 30px;
+    padding: 20px 24px 30px;
     scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
-}
-
-@media (max-width: 900px) {
-    .screenshots-carousel {
-        justify-content: flex-start;
-        overflow-x: auto;
-        overflow-y: hidden;
-        margin: 0 -24px;
-        padding-left: 24px;
-        padding-right: 24px;
-    }
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .screenshots-carousel::-webkit-scrollbar {
@@ -1127,7 +1118,7 @@ body.has-smart-banner .navbar {
 }
 
 .phone-frame-small {
-    width: 300px;
+    width: 290px;
     height: 590px;
     background: #1a1a1a;
     border-radius: 40px;
@@ -1139,14 +1130,14 @@ body.has-smart-banner .navbar {
 .phone-frame-small img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 30px;
 }
 
 @media (max-width: 768px) {
     .phone-frame-small {
-        width: 240px;
-        height: 480px;
+        width: 220px;
+        height: 460px;
         border-radius: 32px;
         padding: 8px;
     }
