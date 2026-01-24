@@ -2456,3 +2456,152 @@ a.btn-secondary {
         min-width: auto;
     }
 }
+
+/* ============================================
+   Is It Keto Section
+   ============================================ */
+.is-it-keto-section {
+    padding: 80px 0 80px;
+    background: #d6eaf8;
+    position: relative;
+}
+
+.is-it-keto-wave {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.is-it-keto-wave svg {
+    width: 100%;
+    height: 80px;
+}
+
+.keto-question-card {
+    background: #f0f7f0;
+    border-radius: 24px;
+    padding: 50px 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.keto-question-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.avocado-emoji {
+    font-size: 2.5rem;
+}
+
+.keto-text-green {
+    color: #4CAF50;
+}
+
+.keto-question-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-light);
+}
+
+.open-food-facts-card {
+    background: #e3f2fd;
+    border-radius: 20px;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.off-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.off-icon {
+    width: 56px;
+    height: 56px;
+    background: #2196F3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.off-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.off-number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text-dark);
+    line-height: 1;
+}
+
+.off-label {
+    font-size: 1rem;
+    color: var(--text-light);
+}
+
+.off-badge {
+    background: #d4e9f7;
+    color: #1976D2;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.off-badge:hover {
+    background: #1976D2;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .keto-question-card {
+        padding: 35px 25px;
+    }
+
+    .keto-question-title {
+        font-size: 2rem;
+    }
+
+    .avocado-emoji {
+        font-size: 1.8rem;
+    }
+
+    .keto-question-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .open-food-facts-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px 20px;
+    }
+
+    .off-left {
+        flex-direction: column;
+    }
+
+    .off-number {
+        font-size: 1.8rem;
+    }
+}

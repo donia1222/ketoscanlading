@@ -24,7 +24,11 @@ const translations = {
         'hero.ctaApple': 'Download on App Store',
         'hero.ctaGoogle': 'Get on Google Play',
         'hero.products': '2.8M+ Products',
-        'hero.languages': '3 Languages',
+        'hero.languages': '10 Languages',
+
+        // Is It Keto
+        'isItKeto.subtitle': 'Search any product and discover its keto score instantly',
+        'isItKeto.productsAvailable': 'products available',
 
         // Features
         'features.badge': 'Features',
@@ -134,7 +138,11 @@ const translations = {
         'hero.ctaApple': 'Descargar en App Store',
         'hero.ctaGoogle': 'Obtener en Google Play',
         'hero.products': '2.8M+ Productos',
-        'hero.languages': '3 Idiomas',
+        'hero.languages': '10 Idiomas',
+
+        // Is It Keto
+        'isItKeto.subtitle': 'Busca cualquier producto y descubre su puntuación keto al instante',
+        'isItKeto.productsAvailable': 'productos disponibles',
 
         // Features
         'features.badge': 'Funcionalidades',
@@ -244,7 +252,11 @@ const translations = {
         'hero.ctaApple': 'Im App Store laden',
         'hero.ctaGoogle': 'Bei Google Play holen',
         'hero.products': '2,8M+ Produkte',
-        'hero.languages': '3 Sprachen',
+        'hero.languages': '10 Sprachen',
+
+        // Is It Keto
+        'isItKeto.subtitle': 'Suchen Sie nach einem Produkt und entdecken Sie sofort seinen Keto-Score',
+        'isItKeto.productsAvailable': 'verfügbare Produkte',
 
         // Features
         'features.badge': 'Funktionen',
