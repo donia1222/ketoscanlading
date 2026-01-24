@@ -32,7 +32,7 @@ const translations = {
 
         // Features
         'features.badge': 'Features',
-        'features.title': 'Keto Scanner Features - Everything for Your Keto Diet',
+        'features.title': '<span class="text-green">Keto</span> Scanner - Everything for Your <span class="highlight-keto"><span class="text-green">Keto</span> 🥑 Diet</span>',
         'features.subtitle': 'An app designed to make grocery shopping easier',
         'features.scan.title': 'Fast Scanning',
         'features.scan.desc': 'Scan EAN13, EAN8, UPC-A, UPC-E, Code128 and QR codes in seconds',
@@ -49,7 +49,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'How It Works',
-        'howItWorks.title': 'How Keto Scan Works - Three Simple Steps',
+        'howItWorks.title': 'How the <span class="text-blue">App</span> Works - Three Simple Steps',
         'howItWorks.subtitle': 'Discover if a product is keto in seconds',
         'howItWorks.step1.title': 'Open the Scanner',
         'howItWorks.step1.desc': "Press the scan button and point your camera at the product's barcode",
@@ -60,7 +60,7 @@ const translations = {
 
         // Rating
         'rating.badge': 'Rating System',
-        'rating.title': 'Keto Rating System - Understanding the Stars',
+        'rating.title': '<span class="text-green">Keto</span> Rating System <span class="subtitle-line">Understanding the <span class="text-yellow">Stars</span></span>',
         'rating.subtitle': 'Based on net carbs (Total Carbs - Fiber)',
         'rating.r5.label': 'Excellent',
         'rating.r5.range': '0-2g net carbs',
@@ -100,11 +100,11 @@ const translations = {
 
         // Keto Foods
         'ketoFoods.badge': 'Keto Foods',
-        'ketoFoods.title': 'Discover Keto-Friendly Products',
+        'ketoFoods.title': 'Discover <span class="text-green">Keto-Friendly</span> Products <span class="subtitle-line">Find the best products for your keto diet</span>',
 
         // Screenshots
         'screenshots.badge': 'App Preview',
-        'screenshots.title': 'See Keto Scanner in Action',
+        'screenshots.title': 'See <span class="text-green">Keto</span> Scanner in Action',
 
         // Footer
         'footer.description': 'Your keto assistant at the supermarket. Scan, analyze and decide with confidence.',
@@ -146,7 +146,7 @@ const translations = {
 
         // Features
         'features.badge': 'Funcionalidades',
-        'features.title': 'Keto Scanner - Todo lo que Necesitas para tu Dieta Keto',
+        'features.title': '<span class="text-green">Keto</span> Scanner - Todo para tu <span class="highlight-keto"><span class="text-green">Keto</span> 🥑 Dieta</span>',
         'features.subtitle': 'Una app diseñada para hacerte la vida más fácil al comprar',
         'features.scan.title': 'Escaneo Rápido',
         'features.scan.desc': 'Escanea códigos EAN13, EAN8, UPC-A, UPC-E, Code128 y QR en segundos',
@@ -163,7 +163,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'Cómo Funciona',
-        'howItWorks.title': 'Cómo Funciona Keto Scan - Tres Pasos Simples',
+        'howItWorks.title': 'Cómo Funciona la <span class="text-blue">App</span> - Tres Pasos Simples',
         'howItWorks.subtitle': 'Descubre si un producto es keto en segundos',
         'howItWorks.step1.title': 'Abre el Scanner',
         'howItWorks.step1.desc': 'Presiona el botón de escanear y apunta la cámara al código de barras',
@@ -174,7 +174,7 @@ const translations = {
 
         // Rating
         'rating.badge': 'Sistema de Rating',
-        'rating.title': 'Sistema de Rating Keto - Entiende las Estrellas',
+        'rating.title': 'Sistema de Rating <span class="text-green">Keto</span> <span class="subtitle-line">Entiende las <span class="text-yellow">Estrellas</span></span>',
         'rating.subtitle': 'Basado en carbohidratos netos (Carbos Totales - Fibra)',
         'rating.r5.label': 'Excelente',
         'rating.r5.range': '0-2g carbos netos',
@@ -214,11 +214,11 @@ const translations = {
 
         // Keto Foods
         'ketoFoods.badge': 'Alimentos Keto',
-        'ketoFoods.title': 'Descubre Productos Keto-Friendly',
+        'ketoFoods.title': 'Descubre Productos <span class="text-green">Keto-Friendly</span> <span class="subtitle-line">Encuentra los mejores productos para tu dieta keto</span>',
 
         // Screenshots
         'screenshots.badge': 'Vista Previa',
-        'screenshots.title': 'Mira Keto Scanner en Acción',
+        'screenshots.title': 'Mira <span class="text-green">Keto</span> Scanner en Acción',
 
         // Footer
         'footer.description': 'Tu asistente keto en el supermercado. Escanea, analiza y decide con confianza.',
@@ -260,7 +260,7 @@ const translations = {
 
         // Features
         'features.badge': 'Funktionen',
-        'features.title': 'Keto Scanner - Alles für Ihre Keto-Diät',
+        'features.title': '<span class="text-green">Keto</span> Scanner - Alles für Ihre <span class="highlight-keto"><span class="text-green">Keto</span> 🥑 Diät</span>',
         'features.subtitle': 'Eine App, die das Einkaufen einfacher macht',
         'features.scan.title': 'Schnelles Scannen',
         'features.scan.desc': 'Scannen Sie EAN13, EAN8, UPC-A, UPC-E, Code128 und QR-Codes in Sekunden',
@@ -277,7 +277,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'Wie es funktioniert',
-        'howItWorks.title': 'Wie Keto Scan Funktioniert - Drei Einfache Schritte',
+        'howItWorks.title': 'Wie die <span class="text-blue">App</span> Funktioniert - Drei Einfache Schritte',
         'howItWorks.subtitle': 'Entdecken Sie in Sekunden, ob ein Produkt Keto ist',
         'howItWorks.step1.title': 'Scanner öffnen',
         'howItWorks.step1.desc': 'Drücken Sie die Scan-Taste und richten Sie Ihre Kamera auf den Barcode',
@@ -288,7 +288,7 @@ const translations = {
 
         // Rating
         'rating.badge': 'Bewertungssystem',
-        'rating.title': 'Keto-Bewertungssystem - Die Sterne Verstehen',
+        'rating.title': '<span class="text-green">Keto</span>-Bewertungssystem <span class="subtitle-line">Die <span class="text-yellow">Sterne</span> Verstehen</span>',
         'rating.subtitle': 'Basierend auf Netto-Kohlenhydraten (Gesamt-Kohlenhydrate - Ballaststoffe)',
         'rating.r5.label': 'Ausgezeichnet',
         'rating.r5.range': '0-2g Netto-Kohlenhydrate',
@@ -328,11 +328,11 @@ const translations = {
 
         // Keto Foods
         'ketoFoods.badge': 'Keto-Lebensmittel',
-        'ketoFoods.title': 'Entdecke Keto-Freundliche Produkte',
+        'ketoFoods.title': 'Entdecke <span class="text-green">Keto-Freundliche</span> Produkte <span class="subtitle-line">Die besten Produkte für Ihre Keto-Diät</span>',
 
         // Screenshots
         'screenshots.badge': 'App-Vorschau',
-        'screenshots.title': 'Keto Scanner in Aktion',
+        'screenshots.title': '<span class="text-green">Keto</span> Scanner in Aktion',
 
         // Footer
         'footer.description': 'Ihr Keto-Assistent im Supermarkt. Scannen, analysieren und mit Vertrauen entscheiden.',
