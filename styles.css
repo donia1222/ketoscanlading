@@ -842,6 +842,93 @@ body.has-smart-banner .navbar {
     50% { opacity: 0.8; }
 }
 
+/* Video en el teléfono */
+.phone-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+/* Botón Watch Video */
+.watch-video-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: 0 8px 30px var(--shadow);
+}
+
+.watch-video-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px var(--shadow);
+}
+
+.watch-video-btn i {
+    font-size: 14px;
+}
+
+/* Video Modal */
+.video-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 10001;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-modal.show {
+    display: flex;
+}
+
+.video-modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    aspect-ratio: 9/16;
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.video-modal-close {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 10;
+    line-height: 1;
+}
+
+.video-modal-close:hover {
+    color: var(--primary);
+}
+
+#modalVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .hero-wave {
     position: absolute;
     bottom: 0;
@@ -1087,6 +1174,125 @@ body.has-smart-banner .navbar {
 
     .foods-carousel {
         gap: 16px;
+    }
+}
+
+/* It's Keto Video Block */
+.its-keto-block {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.its-keto-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.its-keto-title .keto-word {
+    color: var(--rating-5);
+    background: linear-gradient(135deg, #4CAF50, #8BC34A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.its-keto-title .keto-icons {
+    font-size: 36px;
+}
+
+.its-keto-video-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    aspect-ratio: 16/9;
+    background: #000;
+}
+
+.its-keto-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.video-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.its-keto-video-container:hover .video-overlay:not(.hidden) {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.play-button-animated {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 28px;
+    box-shadow: 0 10px 40px rgba(30, 202, 229, 0.4);
+    animation: pulse-play 2s ease-in-out infinite;
+    transition: var(--transition);
+}
+
+.play-button-animated i {
+    margin-left: 5px;
+}
+
+.its-keto-video-container:hover .play-button-animated {
+    transform: scale(1.1);
+    box-shadow: 0 15px 50px rgba(30, 202, 229, 0.5);
+}
+
+@keyframes pulse-play {
+    0%, 100% {
+        box-shadow: 0 10px 40px rgba(30, 202, 229, 0.4);
+    }
+    50% {
+        box-shadow: 0 10px 60px rgba(30, 202, 229, 0.6), 0 0 0 15px rgba(30, 202, 229, 0.1);
+    }
+}
+
+@media (max-width: 768px) {
+    .its-keto-title {
+        font-size: 24px;
+    }
+
+    .its-keto-title .keto-icons {
+        font-size: 28px;
+    }
+
+    .play-button-animated {
+        width: 60px;
+        height: 60px;
+        font-size: 22px;
     }
 }
 

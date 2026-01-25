@@ -269,18 +269,17 @@
                     <div class="phone-frame">
                         <div class="phone-notch"></div>
                         <div class="phone-screen">
-                            <img src="fondotelefono.png" alt="Keto Scanner App - Barcode scanning for keto diet" class="screen-slide active">
-                            <img src="fondl2.png" alt="Keto Scan App - Check if food is keto friendly" class="screen-slide">
-                            <img src="fondl3.png" alt="Keto Scanner - Net carbs and keto rating" class="screen-slide">
+                            <video class="phone-video" autoplay loop muted playsinline>
+                                <source src="bf3cce34922a49148934541caf48c5a1.mov" type="video/mp4">
+                            </video>
                         </div>
                     </div>
                     <div class="phone-glow"></div>
                 </div>
-                <div class="carousel-dots">
-                    <span class="dot active" onclick="goToSlide(0)"></span>
-                    <span class="dot" onclick="goToSlide(1)"></span>
-                    <span class="dot" onclick="goToSlide(2)"></span>
-                </div>
+                <button class="watch-video-btn" onclick="openVideoModal()">
+                    <i class="fas fa-play"></i>
+                    <span data-i18n="hero.watchVideo">Watch Video</span>
+                </button>
             </div>
         </div>
         <div class="hero-wave">
@@ -416,6 +415,25 @@
                 <div class="food-item">
                     <img src="https://images.pexels.com/photos/1927383/pexels-photo-1927383.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" alt="Bacon">
                     <span>Bacon</span>
+                </div>
+            </div>
+
+            <!-- It's Keto Video Block -->
+            <div class="its-keto-block">
+                <h3 class="its-keto-title">
+                    <span>It's</span>
+                    <span class="keto-word">Keto</span>
+                    <span class="keto-icons">🥑❓</span>
+                </h3>
+                <div class="its-keto-video-container" onclick="playItsKetoVideo(this)">
+                    <video class="its-keto-video" playsinline>
+                        <source src="362384ca-1e5f-4fbd-9342-17391608df22.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <div class="play-button-animated">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1196,6 +1214,16 @@
     <div class="cookie-notice" id="cookieNotice">
         <p>🍪 We use cookies to improve your experience.</p>
         <button class="cookie-btn" id="cookieAccept">OK</button>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="video-modal">
+        <div class="video-modal-content">
+            <button class="video-modal-close" onclick="closeVideoModal()">&times;</button>
+            <video id="modalVideo" controls>
+                <source src="bf3cce34922a49148934541caf48c5a1.mov" type="video/mp4">
+            </video>
+        </div>
     </div>
 
     <script src="script.js"></script>

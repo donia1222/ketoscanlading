@@ -25,6 +25,7 @@ const translations = {
         'hero.ctaGoogle': 'Get on Google Play',
         'hero.products': '2.8M+ Products',
         'hero.languages': '10 Languages',
+        'hero.watchVideo': 'Watch Video',
 
         // Is It Keto
         'isItKeto.subtitle': 'Search any product and discover its keto score instantly',
@@ -139,6 +140,7 @@ const translations = {
         'hero.ctaGoogle': 'Obtener en Google Play',
         'hero.products': '2.8M+ Productos',
         'hero.languages': '10 Idiomas',
+        'hero.watchVideo': 'Ver Video',
 
         // Is It Keto
         'isItKeto.subtitle': 'Busca cualquier producto y descubre su puntuación keto al instante',
@@ -253,6 +255,7 @@ const translations = {
         'hero.ctaGoogle': 'Bei Google Play holen',
         'hero.products': '2,8M+ Produkte',
         'hero.languages': '10 Sprachen',
+        'hero.watchVideo': 'Video ansehen',
 
         // Is It Keto
         'isItKeto.subtitle': 'Suchen Sie nach einem Produkt und entdecken Sie sofort seinen Keto-Score',
@@ -901,6 +904,76 @@ function closeModal(type) {
         document.body.style.overflow = '';
     }
 }
+
+/**
+ * Video Modal Functions
+ */
+function openVideoModal() {
+    const modal = document.getElementById('videoModal');
+    const video = document.getElementById('modalVideo');
+    if (modal && video) {
+        modal.classList.add('show');
+        document.body.style.overflow = 'hidden';
+        video.currentTime = 0;
+        video.play();
+    }
+}
+
+function closeVideoModal() {
+    const modal = document.getElementById('videoModal');
+    const video = document.getElementById('modalVideo');
+    if (modal && video) {
+        modal.classList.remove('show');
+        document.body.style.overflow = '';
+        video.pause();
+    }
+}
+
+// Close video modal on click outside
+document.addEventListener('click', (e) => {
+    if (e.target.id === 'videoModal') {
+        closeVideoModal();
+    }
+});
+
+// Close video modal on Escape key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        const videoModal = document.getElementById('videoModal');
+        if (videoModal && videoModal.classList.contains('show')) {
+            closeVideoModal();
+        }
+    }
+});
+
+/**
+ * It's Keto Video Play Function
+ */
+function playItsKetoVideo(container) {
+    const video = container.querySelector('.its-keto-video');
+    const overlay = container.querySelector('.video-overlay');
+
+    if (video.paused) {
+        video.play();
+        overlay.classList.add('hidden');
+    } else {
+        video.pause();
+        overlay.classList.remove('hidden');
+    }
+}
+
+// Reset overlay when video ends
+document.addEventListener('DOMContentLoaded', () => {
+    const itsKetoVideo = document.querySelector('.its-keto-video');
+    if (itsKetoVideo) {
+        itsKetoVideo.addEventListener('ended', () => {
+            const overlay = itsKetoVideo.parentElement.querySelector('.video-overlay');
+            if (overlay) {
+                overlay.classList.remove('hidden');
+            }
+        });
+    }
+});
 
 // Close modal on click outside
 document.addEventListener('click', (e) => {
