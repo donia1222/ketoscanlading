@@ -484,6 +484,51 @@ body.has-smart-banner .navbar {
     align-items: center;
     gap: 32px;
     border: 2px solid rgba(30, 202, 229, 0.2);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hero-price-card .price-promo-badge {
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+/* Promo badge */
+.price-promo-badge {
+    background: linear-gradient(135deg, #ff6b35, #f7c948);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 6px 16px;
+    border-radius: 30px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.35);
+    animation: promo-pulse 2s ease-in-out infinite;
+}
+
+.promo-fire {
+    font-size: 15px;
+}
+
+@keyframes promo-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+}
+
+/* Old price strikethrough */
+.price-old {
+    font-size: 22px;
+    font-weight: 700;
+    color: #b0b0b0;
+    text-decoration: line-through;
+    text-decoration-color: #e74c3c;
+    text-decoration-thickness: 2.5px;
+    margin-right: 6px;
+    position: relative;
 }
 
 .price-main {
@@ -1861,6 +1906,31 @@ body.has-smart-banner .navbar {
     color: var(--primary-dark);
     font-weight: 600;
     font-size: 12px;
+}
+
+/* Download promo badge */
+.download-promo-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    animation: promo-pulse 2s ease-in-out infinite;
+}
+
+.download-price-old {
+    text-decoration: line-through;
+    text-decoration-color: #ff6b6b;
+    text-decoration-thickness: 2.5px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
 }
 
 .download-features {
