@@ -519,6 +519,40 @@ body.has-smart-banner .navbar {
     50% { transform: scale(1.03); }
 }
 
+/* Discount badge */
+.price-discount-badge {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: #fff;
+    font-size: 28px;
+    font-weight: 900;
+    padding: 8px 20px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 20px rgba(231, 76, 60, 0.4);
+    animation: discount-pulse 1.5s ease-in-out infinite;
+}
+
+.download-discount-badge {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: #fff;
+    font-size: 26px;
+    font-weight: 900;
+    padding: 6px 18px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 20px rgba(231, 76, 60, 0.4);
+    animation: discount-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes discount-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+}
+
 /* Old price strikethrough */
 .price-old {
     font-size: 22px;
@@ -592,6 +626,49 @@ body.has-smart-banner .navbar {
 
 .btn-google {
     background: linear-gradient(135deg, var(--primary), var(--primary-dark)) !important;
+}
+
+/* Offer dates note */
+.offer-dates-note {
+    margin-bottom: 24px;
+    text-align: left;
+}
+
+.offer-dates-note p {
+    font-size: 13px;
+    color: var(--text-medium);
+    margin: 4px 0;
+}
+
+.offer-dates-note p i {
+    margin-right: 2px;
+}
+
+.offer-dates-note .offer-urgency {
+    font-size: 15px;
+    font-weight: 800;
+    color: #e74c3c;
+    margin-top: 6px;
+    letter-spacing: 0.3px;
+}
+
+.download-offer-dates {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.download-offer-dates p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 4px 0;
+}
+
+.download-offer-dates .offer-urgency {
+    font-size: 16px;
+    font-weight: 800;
+    color: #f7c948;
+    margin-top: 6px;
+    letter-spacing: 0.3px;
 }
 
 /* Hero Trust Badges */
