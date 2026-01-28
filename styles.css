@@ -2350,6 +2350,7 @@ body.has-smart-banner .navbar {
     .badge-lifetime {
         font-size: 14px;
         padding: 10px 18px;
+        display: none;
     }
 
     .hero-price-card {
