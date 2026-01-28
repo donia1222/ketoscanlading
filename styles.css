@@ -469,7 +469,7 @@ body.has-smart-banner .navbar {
 
 /* Badge Lifetime - Hero */
 .badge-lifetime {
-    display: inline-flex;
+    display: none;
     align-items: center;
     gap: 10px;
     background: linear-gradient(135deg, #10b981, #059669);
@@ -511,9 +511,9 @@ body.has-smart-banner .navbar {
 
 /* Promo badge */
 .price-promo-badge {
-    background: linear-gradient(135deg, #ff6b35, #f7c948);
+    background: linear-gradient(135deg, #009688, #00BCD4);
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     padding: 6px 16px;
     border-radius: 30px;
@@ -537,7 +537,7 @@ body.has-smart-banner .navbar {
 
 /* Discount badge */
 .price-discount-badge {
-    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    background: linear-gradient(135deg, #009688, #4CAF50);
     color: #fff;
     font-size: 28px;
     font-weight: 900;
@@ -546,7 +546,7 @@ body.has-smart-banner .navbar {
     display: inline-block;
     margin-bottom: 8px;
     letter-spacing: 1px;
-    box-shadow: 0 4px 20px rgba(231, 76, 60, 0.4);
+    box-shadow: 0 4px 20px rgb(0 150 136 / 68%);
     animation: discount-pulse 1.5s ease-in-out infinite;
 }
 
@@ -753,6 +753,25 @@ body.has-smart-banner .navbar {
 .btn-primary:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 40px var(--shadow);
+}
+
+.btn-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.btn-price-tag {
+    font-size: 12px;
+    opacity: 0.9;
+    font-weight: 600;
+}
+
+.btn-price-tag s {
+    opacity: 0.7;
+    margin-right: 4px;
+    text-decoration: line-through;
 }
 
 .btn-secondary {
@@ -2199,71 +2218,89 @@ body.has-smart-banner .navbar {
     margin-bottom: 30px;
 }
 
-.language-label {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
+.lang-selector-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(30, 202, 229, 0.3);
+    padding: 12px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: var(--transition);
+    color: white;
+    font-size: 15px;
     font-weight: 500;
 }
 
-.language-buttons {
-    display: flex;
-    gap: 10px;
+.lang-selector-btn:hover {
+    background: rgba(30, 202, 229, 0.2);
+    border-color: var(--primary);
+    transform: translateY(-2px);
 }
 
-.lang-btn {
+.lang-selector-btn i {
+    color: var(--primary);
+}
+
+.lang-selector-btn .fa-chevron-down {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+/* Language Grid in Modal */
+.language-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 10px 0;
+}
+
+.language-grid .lang-btn {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 8px;
-    background: rgba(255, 255, 255, 0.1);
+    background: #f5f5f5;
     border: 2px solid transparent;
-    padding: 10px 16px;
-    border-radius: 10px;
+    padding: 16px 12px;
+    border-radius: 12px;
     cursor: pointer;
     transition: var(--transition);
 }
 
-.lang-btn:hover {
-    background: rgba(255, 255, 255, 0.15);
+.language-grid .lang-btn:hover {
+    background: #e8f7fa;
     border-color: rgba(30, 202, 229, 0.3);
+    transform: translateY(-2px);
 }
 
-.lang-btn.active {
-    background: rgba(30, 202, 229, 0.2);
+.language-grid .lang-btn.active {
+    background: rgba(30, 202, 229, 0.15);
     border-color: var(--primary);
 }
 
-.lang-flag {
-    font-size: 14px;
-    font-weight: 700;
-    color: white;
-    background: var(--primary);
-    padding: 4px 8px;
-    border-radius: 4px;
+.language-grid .lang-flag {
+    font-size: 28px;
+    background: none;
+    padding: 0;
 }
 
-.lang-name {
-    color: white;
-    font-size: 14px;
+.language-grid .lang-name {
+    color: #333;
+    font-size: 13px;
     font-weight: 500;
+    text-align: center;
+}
+
+.language-grid .lang-btn.active .lang-name {
+    color: var(--primary);
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
-    .language-selector {
-        flex-direction: column;
-        gap: 12px;
-    }
-
-    .language-buttons {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .lang-btn {
-        padding: 8px 12px;
-    }
-
-    .lang-name {
-        display: none;
+    .language-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -2435,7 +2472,7 @@ body.has-smart-banner .navbar {
 
     .hero h1 {
         font-size: 28px;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .hero-stats {

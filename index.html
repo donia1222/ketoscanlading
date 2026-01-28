@@ -208,9 +208,9 @@
         </div>
         <div class="container hero-content">
             <div class="hero-text">
-                <div class="badge-lifetime">
-                    <span>💰</span>
-                    <span data-i18n="hero.badgeLifetime">Pay once, use forever!</span>
+                <div class="badge-lifetime" style="background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);">
+                    <span>🎉</span>
+                    <span data-i18n="hero.badgeLifetime">Launch Promo! Limited time offer</span>
                 </div>
                 <h1 data-i18n="hero.title">Keto Scanner: Scan. Analyze. <span class="gradient-text">Decide.</span></h1>
                 <p class="hero-description" data-i18n="hero.description">
@@ -220,9 +220,9 @@
 
                 <div class="hero-price-card">
                     <div class="price-promo-badge">
-                        <span class="promo-fire">🔥</span>
-                        <span data-i18n="hero.promoText">Only until end of February 2026. Get it now!</span>
-                        <span class="promo-fire">🔥</span>
+                        <span class="promo-fire">🚀</span>
+                        <span data-i18n="hero.promoText">Launch Promo! 80% OFF until end of February</span>
+                        <span class="promo-fire">🎁</span>
                     </div>
                     <div class="price-discount-badge">-80%</div>
                     <div class="price-main">
@@ -230,6 +230,9 @@
                         <span class="price-currency">$</span>
                         <span class="price-amount">1.99</span>
                         <span class="price-period" data-i18n="hero.priceOnce">one time</span>
+                    </div>
+                    <div class="price-launch-message" style="background: #fff3cd; border-radius: 8px; padding: 10px; margin-bottom: 15px; text-align: center;">
+                        <span style="font-size: 0.9rem; color: #856404;" data-i18n="hero.launchMessage">🎉 We just launched! Get lifetime access at this special price before it goes back to $10</span>
                     </div>
                     <div class="price-benefits">
                         <div class="benefit-item">
@@ -245,7 +248,7 @@
                             <span data-i18n="hero.benefit3">Free updates forever</span>
                         </div>
                     </div>
-             
+
                 </div>
 
                 <div class="hero-cta">
@@ -812,22 +815,13 @@
                 </div>
             </div>
 
-            <!-- Language Selector -->
+            <!-- Language Selector Button -->
             <div class="language-selector">
-                <div class="language-buttons">
-                    <button class="lang-btn active" data-lang="en">
-                        <span class="lang-flag">EN</span>
-                        <span class="lang-name">English</span>
-                    </button>
-                    <button class="lang-btn" data-lang="es">
-                        <span class="lang-flag">ES</span>
-                        <span class="lang-name">Español</span>
-                    </button>
-                    <button class="lang-btn" data-lang="de">
-                        <span class="lang-flag">DE</span>
-                        <span class="lang-name">Deutsch</span>
-                    </button>
-                </div>
+                <button class="lang-selector-btn" onclick="openModal('language')">
+                    <i class="fas fa-globe"></i>
+                    <span id="currentLangName">English</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
             </div>
 
             <div class="footer-bottom">
@@ -1223,6 +1217,61 @@
                         Send Message
                     </button>
                 </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Language Modal -->
+    <div id="languageModal" class="modal">
+        <div class="modal-content" style="max-width: 500px;">
+            <div class="modal-header">
+                <div class="modal-header-left">
+                    <div class="modal-icon" style="background: linear-gradient(135deg, #1ecae5, #188b9d);">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h2>Select Language</h2>
+                </div>
+                <button class="modal-close" onclick="closeModal('language')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="language-grid">
+                    <button class="lang-btn active" data-lang="en">
+                        <span class="lang-flag">🇬🇧</span>
+                        <span class="lang-name">English</span>
+                    </button>
+                    <button class="lang-btn" data-lang="es">
+                        <span class="lang-flag">🇪🇸</span>
+                        <span class="lang-name">Español</span>
+                    </button>
+                    <button class="lang-btn" data-lang="de">
+                        <span class="lang-flag">🇩🇪</span>
+                        <span class="lang-name">Deutsch</span>
+                    </button>
+                    <button class="lang-btn" data-lang="fr">
+                        <span class="lang-flag">🇫🇷</span>
+                        <span class="lang-name">Français</span>
+                    </button>
+                    <button class="lang-btn" data-lang="it">
+                        <span class="lang-flag">🇮🇹</span>
+                        <span class="lang-name">Italiano</span>
+                    </button>
+                    <button class="lang-btn" data-lang="pt">
+                        <span class="lang-flag">🇵🇹</span>
+                        <span class="lang-name">Português</span>
+                    </button>
+                    <button class="lang-btn" data-lang="nl">
+                        <span class="lang-flag">🇳🇱</span>
+                        <span class="lang-name">Nederlands</span>
+                    </button>
+                    <button class="lang-btn" data-lang="pl">
+                        <span class="lang-flag">🇵🇱</span>
+                        <span class="lang-name">Polski</span>
+                    </button>
+                    <button class="lang-btn" data-lang="ru">
+                        <span class="lang-flag">🇷🇺</span>
+                        <span class="lang-name">Русский</span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
