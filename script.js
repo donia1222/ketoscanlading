@@ -1634,7 +1634,7 @@ console.log('%c Download the app and start your keto journey today! ', 'color: #
 (function() {
     const isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     if (!isMobile) return;
-    if (localStorage.getItem('smartBannerClosed')) return;
+    if (sessionStorage.getItem('smartBannerClosed')) return;
 
     const banner = document.getElementById('smartBanner');
     const closeBtn = document.getElementById('smartBannerClose');
@@ -1653,7 +1653,7 @@ console.log('%c Download the app and start your keto journey today! ', 'color: #
     closeBtn.addEventListener('click', function() {
         banner.classList.remove('show');
         document.body.classList.remove('has-smart-banner');
-        localStorage.setItem('smartBannerClosed', '1');
+        sessionStorage.setItem('smartBannerClosed', '1');
     });
 })();
 
