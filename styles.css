@@ -551,16 +551,16 @@ body.has-smart-banner .navbar {
 }
 
 .download-discount-badge {
-    background: linear-gradient(135deg, #e74c3c, #c0392b);
+     background: linear-gradient(135deg, #009688, #4CAF50);
     color: #fff;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 900;
-    padding: 6px 18px;
+    padding: 8px 20px;
     border-radius: 12px;
     display: inline-block;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     letter-spacing: 1px;
-    box-shadow: 0 4px 20px rgba(231, 76, 60, 0.4);
+    box-shadow: 0 4px 20px rgb(0 150 136 / 68%);
     animation: discount-pulse 1.5s ease-in-out infinite;
 }
 
@@ -2300,7 +2300,46 @@ body.has-smart-banner .navbar {
 
 @media (max-width: 768px) {
     .language-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+        padding: 0;
+    }
+
+    .language-grid .lang-btn {
+        padding: 8px 4px;
+        border-radius: 8px;
+    }
+
+    .language-grid .lang-flag {
+        font-size: 18px;
+    }
+
+    .language-grid .lang-name {
+        font-size: 10px;
+    }
+
+    #languageModal .modal-content {
+        max-width: 280px;
+        padding: 15px;
+    }
+
+    #languageModal .modal-header {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    #languageModal .modal-header h2 {
+        font-size: 16px;
+    }
+
+    #languageModal .modal-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    #languageModal .modal-body {
+        padding: 0;
     }
 }
 
