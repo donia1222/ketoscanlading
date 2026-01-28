@@ -2435,6 +2435,7 @@ body.has-smart-banner .navbar {
 
     .hero h1 {
         font-size: 28px;
+        margin-top: 20px;
     }
 
     .hero-stats {
