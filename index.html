@@ -214,7 +214,7 @@
                     <span>🎉</span>
                     <span data-i18n="hero.badgeLifetime">Launch Promo! Limited time offer</span>
                 </div>
-                <div class="badge-new-app" style="display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 8px 16px; border-radius: 50px; font-size: 14px; font-weight: 600; margin-bottom: -20px;  margin-top: 26px;  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); animation: pulse 2s infinite;">
+                <div class="badge-new-app" style="display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #009688 0%, #26919f 100%); color: white; padding: 8px 16px; border-radius: 50px; font-size: 14px; font-weight: 600; margin-bottom: -20px;  margin-top: 26px;  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); animation: pulse 2s infinite;">
                     <span>✨</span>
                     <span data-i18n="hero.newApp">New App</span><span>2026!</span>
                 </div>
@@ -1255,6 +1255,90 @@
                         <span class="lang-name">Русский</span>
                     </button>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Promo Launch Modal -->
+    <div id="promoModal" class="modal promo-modal">
+        <div class="modal-content promo-modal-content">
+            <button class="modal-close promo-close" onclick="closeModal('promo')">&times;</button>
+
+            <!-- Confetti decoration -->
+            <div class="promo-confetti">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+            </div>
+
+            <div class="promo-body">
+                <!-- Badge -->
+                <div class="promo-badge">
+                    <i class="fas fa-fire"></i>
+                    <span data-i18n="promo.badge">Launch Offer</span>
+                </div>
+
+                <!-- Icon -->
+                <div class="promo-icon-wrapper">
+                    <div class="promo-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="promo-sparkles">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <h2 class="promo-title" data-i18n="promo.title">Fresh Out of the Oven!</h2>
+                <p class="promo-subtitle" data-i18n="promo.subtitle">Keto Scanner just launched</p>
+
+                <!-- Price -->
+                <div class="promo-price-box">
+                    <div class="promo-discount-badge">50% OFF</div>
+                    <div class="promo-prices">
+                        <span class="promo-old-price">$9.99</span>
+                        <span class="promo-new-price">$4.99</span>
+                    </div>
+                    <span class="promo-price-note" data-i18n="promo.oneTime">One-time payment</span>
+                </div>
+
+                <!-- Features -->
+                <div class="promo-features">
+                    <div class="promo-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="promo.feature1">Lifetime access</span>
+                    </div>
+                    <div class="promo-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="promo.feature2">No subscriptions</span>
+                    </div>
+                    <div class="promo-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span data-i18n="promo.feature3">Free updates forever</span>
+                    </div>
+                </div>
+
+                <!-- Urgency -->
+                <div class="promo-urgency">
+                    <i class="fas fa-clock"></i>
+                    <span data-i18n="promo.urgency">Offer valid until end of February!</span>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="promo-buttons">
+                    <a href="https://apps.apple.com/app/keto-scanner-barcode-diet/id6740032565" class="promo-btn promo-btn-apple">
+                        <i class="fab fa-apple"></i>
+                        <span>App Store</span>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.lweb.ketoscanner" class="promo-btn promo-btn-google">
+                        <i class="fab fa-google-play"></i>
+                        <span>Google Play</span>
+                    </a>
+                </div>
+
+                <!-- Skip link -->
+                <button class="promo-skip" onclick="closeModal('promo')" data-i18n="promo.skip">Maybe later</button>
             </div>
         </div>
     </div>

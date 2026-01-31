@@ -124,7 +124,18 @@ const translations = {
         'footer.contact': 'Contact',
         'footer.support': 'Support',
         'footer.language': 'Language:',
-        'footer.rights': 'All rights reserved.'
+        'footer.rights': 'All rights reserved.',
+
+        // Promo Modal
+        'promo.badge': 'Launch Offer',
+        'promo.title': 'Fresh Out of the Oven!',
+        'promo.subtitle': 'Keto Scanner just launched',
+        'promo.oneTime': 'One-time payment',
+        'promo.feature1': 'Lifetime access',
+        'promo.feature2': 'No subscriptions',
+        'promo.feature3': 'Free updates forever',
+        'promo.urgency': 'Offer valid until end of February!',
+        'promo.skip': 'Maybe later'
     },
     es: {
         // Nav
@@ -245,7 +256,18 @@ const translations = {
         'footer.contact': 'Contacto',
         'footer.support': 'Soporte',
         'footer.language': 'Idioma:',
-        'footer.rights': 'Todos los derechos reservados.'
+        'footer.rights': 'Todos los derechos reservados.',
+
+        // Promo Modal
+        'promo.badge': 'Oferta de Lanzamiento',
+        'promo.title': '¡Recién Salido del Horno!',
+        'promo.subtitle': 'Keto Scanner acaba de lanzarse',
+        'promo.oneTime': 'Pago único',
+        'promo.feature1': 'Acceso de por vida',
+        'promo.feature2': 'Sin suscripciones',
+        'promo.feature3': 'Actualizaciones gratis siempre',
+        'promo.urgency': '¡Oferta válida hasta final de febrero!',
+        'promo.skip': 'Quizás luego'
     },
     de: {
         // Nav
@@ -366,7 +388,18 @@ const translations = {
         'footer.contact': 'Kontakt',
         'footer.support': 'Support',
         'footer.language': 'Sprache:',
-        'footer.rights': 'Alle Rechte vorbehalten.'
+        'footer.rights': 'Alle Rechte vorbehalten.',
+
+        // Promo Modal
+        'promo.badge': 'Startangebot',
+        'promo.title': 'Frisch aus dem Ofen!',
+        'promo.subtitle': 'Keto Scanner ist gerade gestartet',
+        'promo.oneTime': 'Einmalzahlung',
+        'promo.feature1': 'Lebenslanger Zugang',
+        'promo.feature2': 'Keine Abonnements',
+        'promo.feature3': 'Kostenlose Updates für immer',
+        'promo.urgency': 'Angebot gültig bis Ende Februar!',
+        'promo.skip': 'Vielleicht später'
     },
     it: {
         // Nav
@@ -487,7 +520,18 @@ const translations = {
         'footer.contact': 'Contatti',
         'footer.support': 'Supporto',
         'footer.language': 'Lingua:',
-        'footer.rights': 'Tutti i diritti riservati.'
+        'footer.rights': 'Tutti i diritti riservati.',
+
+        // Promo Modal
+        'promo.badge': 'Offerta di Lancio',
+        'promo.title': 'Appena Sfornato!',
+        'promo.subtitle': 'Keto Scanner è appena stato lanciato',
+        'promo.oneTime': 'Pagamento unico',
+        'promo.feature1': 'Accesso a vita',
+        'promo.feature2': 'Nessun abbonamento',
+        'promo.feature3': 'Aggiornamenti gratuiti per sempre',
+        'promo.urgency': 'Offerta valida fino a fine febbraio!',
+        'promo.skip': 'Forse dopo'
     },
     fr: {
         // Nav
@@ -608,7 +652,18 @@ const translations = {
         'footer.contact': 'Contact',
         'footer.support': 'Support',
         'footer.language': 'Langue:',
-        'footer.rights': 'Tous droits réservés.'
+        'footer.rights': 'Tous droits réservés.',
+
+        // Promo Modal
+        'promo.badge': 'Offre de Lancement',
+        'promo.title': 'Tout Juste Sorti du Four!',
+        'promo.subtitle': 'Keto Scanner vient de sortir',
+        'promo.oneTime': 'Paiement unique',
+        'promo.feature1': 'Accès à vie',
+        'promo.feature2': 'Sans abonnement',
+        'promo.feature3': 'Mises à jour gratuites pour toujours',
+        'promo.urgency': 'Offre valable jusqu\'à fin février!',
+        'promo.skip': 'Peut-être plus tard'
     },
     nl: {
         // Nav
@@ -729,7 +784,18 @@ const translations = {
         'footer.contact': 'Contact',
         'footer.support': 'Support',
         'footer.language': 'Taal:',
-        'footer.rights': 'Alle rechten voorbehouden.'
+        'footer.rights': 'Alle rechten voorbehouden.',
+
+        // Promo Modal
+        'promo.badge': 'Lanceringsaanbieding',
+        'promo.title': 'Vers uit de Oven!',
+        'promo.subtitle': 'Keto Scanner is net gelanceerd',
+        'promo.oneTime': 'Eenmalige betaling',
+        'promo.feature1': 'Levenslange toegang',
+        'promo.feature2': 'Geen abonnementen',
+        'promo.feature3': 'Gratis updates voor altijd',
+        'promo.urgency': 'Aanbieding geldig tot eind februari!',
+        'promo.skip': 'Misschien later'
     },
     pt: {
         // Nav
@@ -850,7 +916,18 @@ const translations = {
         'footer.contact': 'Contato',
         'footer.support': 'Suporte',
         'footer.language': 'Idioma:',
-        'footer.rights': 'Todos os direitos reservados.'
+        'footer.rights': 'Todos os direitos reservados.',
+
+        // Promo Modal
+        'promo.badge': 'Oferta de Lançamento',
+        'promo.title': 'Acabou de Sair do Forno!',
+        'promo.subtitle': 'Keto Scanner acabou de ser lançado',
+        'promo.oneTime': 'Pagamento único',
+        'promo.feature1': 'Acesso vitalício',
+        'promo.feature2': 'Sem assinaturas',
+        'promo.feature3': 'Atualizações gratuitas para sempre',
+        'promo.urgency': 'Oferta válida até o final de fevereiro!',
+        'promo.skip': 'Talvez depois'
     },
     pl: {
         // Nav
@@ -971,7 +1048,18 @@ const translations = {
         'footer.contact': 'Kontakt',
         'footer.support': 'Wsparcie',
         'footer.language': 'Język:',
-        'footer.rights': 'Wszelkie prawa zastrzeżone.'
+        'footer.rights': 'Wszelkie prawa zastrzeżone.',
+
+        // Promo Modal
+        'promo.badge': 'Oferta Premierowa',
+        'promo.title': 'Prosto z Pieca!',
+        'promo.subtitle': 'Keto Scanner właśnie wystartował',
+        'promo.oneTime': 'Jednorazowa płatność',
+        'promo.feature1': 'Dożywotni dostęp',
+        'promo.feature2': 'Bez subskrypcji',
+        'promo.feature3': 'Darmowe aktualizacje na zawsze',
+        'promo.urgency': 'Oferta ważna do końca lutego!',
+        'promo.skip': 'Może później'
     },
     ru: {
         // Nav
@@ -1092,7 +1180,18 @@ const translations = {
         'footer.contact': 'Контакты',
         'footer.support': 'Поддержка',
         'footer.language': 'Язык:',
-        'footer.rights': 'Все права защищены.'
+        'footer.rights': 'Все права защищены.',
+
+        // Promo Modal
+        'promo.badge': 'Стартовое Предложение',
+        'promo.title': 'Только из Печи!',
+        'promo.subtitle': 'Keto Scanner только что запущен',
+        'promo.oneTime': 'Единоразовый платёж',
+        'promo.feature1': 'Пожизненный доступ',
+        'promo.feature2': 'Без подписок',
+        'promo.feature3': 'Бесплатные обновления навсегда',
+        'promo.urgency': 'Предложение действует до конца февраля!',
+        'promo.skip': 'Может позже'
     }
 };
 
@@ -1109,7 +1208,21 @@ document.addEventListener('DOMContentLoaded', () => {
     initCounterAnimation();
     initLanguageSelector();
     initHeroCarousel();
+    initPromoModal();
 });
+
+/**
+ * Promo Modal - Show on page load
+ */
+function initPromoModal() {
+    const promoModal = document.getElementById('promoModal');
+    if (!promoModal) return;
+
+    // Show modal after a short delay for better UX
+    setTimeout(() => {
+        openModal('promo');
+    }, 1500);
+}
 
 /**
  * Hero Carousel
@@ -1670,7 +1783,7 @@ console.log('%c Download the app and start your keto journey today! ', 'color: #
  * Modal Functions
  */
 function openModal(type) {
-    event.preventDefault();
+    if (event) event.preventDefault();
     const modal = document.getElementById(type + 'Modal');
     if (modal) {
         modal.classList.add('active');

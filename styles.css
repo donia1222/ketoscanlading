@@ -3169,6 +3169,453 @@ body.has-smart-banner .navbar {
 }
 
 /* ============================================
+   Promo Launch Modal
+   ============================================ */
+.promo-modal .promo-modal-content {
+    max-width: 420px;
+    background: linear-gradient(180deg, #ffffff 0%, #f0fafa 100%);
+    border-radius: 28px;
+    overflow: visible;
+    position: relative;
+}
+
+.promo-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 10;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.08);
+    border: none;
+    font-size: 20px;
+    color: var(--text-muted);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.promo-close:hover {
+    background: rgba(244, 67, 54, 0.15);
+    color: #F44336;
+}
+
+/* Confetti Animation */
+.promo-confetti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    border-radius: 28px;
+}
+
+.promo-confetti span {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    animation: confettiFall 3s ease-in-out infinite;
+}
+
+.promo-confetti span:nth-child(1) { left: 10%; background: #FF6B6B; animation-delay: 0s; }
+.promo-confetti span:nth-child(2) { left: 20%; background: #4ECDC4; animation-delay: 0.2s; }
+.promo-confetti span:nth-child(3) { left: 30%; background: #FFE66D; animation-delay: 0.4s; }
+.promo-confetti span:nth-child(4) { left: 40%; background: #95E1D3; animation-delay: 0.1s; }
+.promo-confetti span:nth-child(5) { left: 50%; background: #F38181; animation-delay: 0.3s; }
+.promo-confetti span:nth-child(6) { left: 60%; background: #AA96DA; animation-delay: 0.5s; }
+.promo-confetti span:nth-child(7) { left: 70%; background: #1ecae5; animation-delay: 0.15s; }
+.promo-confetti span:nth-child(8) { left: 80%; background: #4CAF50; animation-delay: 0.35s; }
+.promo-confetti span:nth-child(9) { left: 85%; background: #FF9800; animation-delay: 0.25s; }
+.promo-confetti span:nth-child(10) { left: 95%; background: #E91E63; animation-delay: 0.45s; }
+
+@keyframes confettiFall {
+    0% { top: -10%; transform: rotate(0deg) scale(1); opacity: 1; }
+    100% { top: 100%; transform: rotate(720deg) scale(0.5); opacity: 0; }
+}
+
+.promo-body {
+    padding: 40px 30px 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Badge */
+.promo-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #FF6B6B, #FF8E53);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.promo-badge i {
+    font-size: 14px;
+}
+
+/* Icon */
+.promo-icon-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.promo-icon {
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(135deg, #1ecae5, #188b9d);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(30, 202, 229, 0.4);
+    animation: float 3s ease-in-out infinite;
+}
+
+.promo-sparkles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.promo-sparkles i {
+    position: absolute;
+    color: #FFD700;
+    animation: sparkle 1.5s ease-in-out infinite;
+}
+
+.promo-sparkles i:nth-child(1) { top: -5px; right: -5px; font-size: 14px; animation-delay: 0s; }
+.promo-sparkles i:nth-child(2) { top: 10px; left: -10px; font-size: 10px; animation-delay: 0.3s; }
+.promo-sparkles i:nth-child(3) { bottom: 5px; right: -8px; font-size: 12px; animation-delay: 0.6s; }
+
+@keyframes sparkle {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.5; transform: scale(0.8); }
+}
+
+/* Title */
+.promo-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--text-dark);
+    margin: 0 0 8px;
+    line-height: 1.2;
+}
+
+.promo-subtitle {
+    font-size: 15px;
+    color: var(--text-light);
+    margin: 0 0 24px;
+}
+
+/* Price Box */
+.promo-price-box {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    border: 2px solid rgba(30, 202, 229, 0.2);
+}
+
+.promo-discount-badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: linear-gradient(135deg, #4CAF50, #66BB6A);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 800;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+}
+
+.promo-prices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+
+.promo-old-price {
+    font-size: 20px;
+    color: var(--text-muted);
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.promo-new-price {
+    font-size: 42px;
+    font-weight: 800;
+    color: var(--primary);
+    line-height: 1;
+}
+
+.promo-price-note {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+/* Features */
+.promo-features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.promo-feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+    color: var(--text-medium);
+}
+
+.promo-feature i {
+    color: #4CAF50;
+    font-size: 16px;
+}
+
+/* Urgency */
+.promo-urgency {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255, 152, 0, 0.15);
+    color: #E65100;
+    padding: 10px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.promo-urgency i {
+    animation: pulse 1s ease-in-out infinite;
+}
+
+/* Buttons */
+.promo-buttons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.promo-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 20px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.promo-btn-apple {
+    background: linear-gradient(135deg, #000000, #333333);
+    color: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+
+.promo-btn-apple:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.promo-btn-google {
+    background: linear-gradient(135deg, #1ecae5, #188b9d);
+    color: white;
+    box-shadow: 0 6px 20px rgba(30, 202, 229, 0.35);
+}
+
+.promo-btn-google:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(30, 202, 229, 0.45);
+}
+
+.promo-btn i {
+    font-size: 18px;
+}
+
+/* Skip */
+.promo-skip {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 13px;
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: var(--transition);
+}
+
+.promo-skip:hover {
+    color: var(--text-dark);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .promo-modal .promo-modal-content {
+        max-width: 95%;
+        max-height: 90vh;
+    }
+
+    .promo-body {
+        padding: 30px 16px 20px;
+    }
+
+    .promo-badge {
+        padding: 6px 12px;
+        font-size: 11px;
+        margin-bottom: 12px;
+        margin-left: -20px;
+        margin-right: 10px;
+    }
+
+    .promo-icon-wrapper {
+        margin-bottom: 12px;
+    }
+
+    .promo-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 28px;
+        border-radius: 18px;
+    }
+
+    .promo-title {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .promo-subtitle {
+        font-size: 13px;
+        margin-bottom: 16px;
+    }
+
+    .promo-price-box {
+        padding: 14px;
+        margin-bottom: 14px;
+        border-radius: 16px;
+    }
+
+    .promo-discount-badge {
+        padding: 4px 10px;
+        font-size: 11px;
+        top: -10px;
+    }
+
+    .promo-old-price {
+        font-size: 16px;
+    }
+
+    .promo-new-price {
+        font-size: 32px;
+    }
+
+    .promo-price-note {
+        font-size: 11px;
+    }
+
+    .promo-features {
+        gap: 6px;
+        margin-bottom: 14px;
+    }
+
+    .promo-feature {
+        font-size: 12px;
+        gap: 6px;
+    }
+
+    .promo-feature i {
+        font-size: 14px;
+    }
+
+    .promo-urgency {
+        padding: 8px 14px;
+        font-size: 11px;
+        margin-bottom: 16px;
+    }
+
+    .promo-buttons {
+        flex-direction: row;
+        gap: 8px;
+        margin-bottom: 10px;
+    }
+
+    .promo-btn {
+        padding: 10px 12px;
+        font-size: 13px;
+        border-radius: 12px;
+    }
+
+    .promo-btn i {
+        font-size: 16px;
+    }
+
+    .promo-skip {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .promo-confetti span {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+/* Extra small phones */
+@media (max-width: 380px) {
+    .promo-body {
+        padding: 25px 14px 16px;
+    }
+
+    .promo-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .promo-title {
+        font-size: 18px;
+    }
+
+    .promo-new-price {
+        font-size: 28px;
+    }
+
+    .promo-buttons {
+        flex-direction: column;
+        gap: 6px;
+    }
+}
+
+/* ============================================
    Is It Keto Section
    ============================================ */
 .is-it-keto-section {
