@@ -138,7 +138,9 @@ const translations = {
         'promo.feature2': 'No subscriptions',
         'promo.feature3': 'Free updates forever',
         'promo.urgency': 'Offer valid until end of February!',
-        'promo.skip': 'Maybe later'
+        'promo.subscriptionWarning': 'From March, the app will switch to monthly subscription. Pay once now and use the app forever without paying again. Take advantage before the month ends!',
+        'promo.skip': 'Maybe later',
+        'hero.subscriptionWarning': 'From March, the app will switch to monthly subscription. Pay once now and use the app forever without paying again. Take advantage before the month ends!'
     },
     es: {
         // Nav
@@ -273,7 +275,9 @@ const translations = {
         'promo.feature2': 'Sin suscripciones',
         'promo.feature3': 'Actualizaciones gratis siempre',
         'promo.urgency': '¡Oferta válida hasta final de febrero!',
-        'promo.skip': 'Quizás luego'
+        'promo.subscriptionWarning': 'A partir de marzo, la app pasará a suscripción mensual. ¡Paga una sola vez ahora y usa la app para siempre sin volver a pagar! ¡Aprovecha antes de que termine el mes!',
+        'promo.skip': 'Quizás luego',
+        'hero.subscriptionWarning': 'A partir de marzo, la app pasará a suscripción mensual. ¡Paga una sola vez ahora y usa la app para siempre sin volver a pagar! ¡Aprovecha antes de que termine el mes!'
     },
     de: {
         // Nav
@@ -408,7 +412,9 @@ const translations = {
         'promo.feature2': 'Keine Abonnements',
         'promo.feature3': 'Kostenlose Updates für immer',
         'promo.urgency': 'Angebot gültig bis Ende Februar!',
-        'promo.skip': 'Vielleicht später'
+        'promo.subscriptionWarning': 'Ab März wird die App auf monatliches Abo umgestellt. Zahle jetzt einmal und nutze die App für immer ohne erneut zu zahlen! Nutze die Chance bevor der Monat endet!',
+        'promo.skip': 'Vielleicht später',
+        'hero.subscriptionWarning': 'Ab März wird die App auf monatliches Abo umgestellt. Zahle jetzt einmal und nutze die App für immer ohne erneut zu zahlen! Nutze die Chance bevor der Monat endet!'
     },
     it: {
         // Nav
@@ -543,7 +549,9 @@ const translations = {
         'promo.feature2': 'Nessun abbonamento',
         'promo.feature3': 'Aggiornamenti gratuiti per sempre',
         'promo.urgency': 'Offerta valida fino a fine febbraio!',
-        'promo.skip': 'Forse dopo'
+        'promo.subscriptionWarning': 'Da marzo, l\'app passerà ad abbonamento mensile. Paga una sola volta adesso e usa l\'app per sempre senza pagare di nuovo! Approfitta prima che finisca il mese!',
+        'promo.skip': 'Forse dopo',
+        'hero.subscriptionWarning': 'Da marzo, l\'app passerà ad abbonamento mensile. Paga una sola volta adesso e usa l\'app per sempre senza pagare di nuovo! Approfitta prima che finisca il mese!'
     },
     fr: {
         // Nav
@@ -678,7 +686,9 @@ const translations = {
         'promo.feature2': 'Sans abonnement',
         'promo.feature3': 'Mises à jour gratuites pour toujours',
         'promo.urgency': 'Offre valable jusqu\'à fin février!',
-        'promo.skip': 'Peut-être plus tard'
+        'promo.subscriptionWarning': 'À partir de mars, l\'app passera en abonnement mensuel. Payez une seule fois maintenant et utilisez l\'app pour toujours sans repayer! Profitez-en avant la fin du mois!',
+        'promo.skip': 'Peut-être plus tard',
+        'hero.subscriptionWarning': 'À partir de mars, l\'app passera en abonnement mensuel. Payez une seule fois maintenant et utilisez l\'app pour toujours sans repayer! Profitez-en avant la fin du mois!'
     },
     nl: {
         // Nav
@@ -813,7 +823,9 @@ const translations = {
         'promo.feature2': 'Geen abonnementen',
         'promo.feature3': 'Gratis updates voor altijd',
         'promo.urgency': 'Aanbieding geldig tot eind februari!',
-        'promo.skip': 'Misschien later'
+        'promo.subscriptionWarning': 'Vanaf maart gaat de app over naar een maandelijks abonnement. Betaal nu eenmalig en gebruik de app voor altijd zonder opnieuw te betalen! Profiteer voordat de maand eindigt!',
+        'promo.skip': 'Misschien later',
+        'hero.subscriptionWarning': 'Vanaf maart gaat de app over naar een maandelijks abonnement. Betaal nu eenmalig en gebruik de app voor altijd zonder opnieuw te betalen! Profiteer voordat de maand eindigt!'
     },
     pt: {
         // Nav
@@ -948,7 +960,9 @@ const translations = {
         'promo.feature2': 'Sem assinaturas',
         'promo.feature3': 'Atualizações gratuitas para sempre',
         'promo.urgency': 'Oferta válida até o final de fevereiro!',
-        'promo.skip': 'Talvez depois'
+        'promo.subscriptionWarning': 'A partir de março, o app mudará para assinatura mensal. Pague uma única vez agora e use o app para sempre sem pagar novamente! Aproveite antes que o mês termine!',
+        'promo.skip': 'Talvez depois',
+        'hero.subscriptionWarning': 'A partir de março, o app mudará para assinatura mensal. Pague uma única vez agora e use o app para sempre sem pagar novamente! Aproveite antes que o mês termine!'
     },
     pl: {
         // Nav
@@ -1083,7 +1097,9 @@ const translations = {
         'promo.feature2': 'Bez subskrypcji',
         'promo.feature3': 'Darmowe aktualizacje na zawsze',
         'promo.urgency': 'Oferta ważna do końca lutego!',
-        'promo.skip': 'Może później'
+        'promo.subscriptionWarning': 'Od marca aplikacja przejdzie na miesięczną subskrypcję. Zapłać raz teraz i używaj aplikacji na zawsze bez ponownego płacenia! Skorzystaj zanim skończy się miesiąc!',
+        'promo.skip': 'Może później',
+        'hero.subscriptionWarning': 'Od marca aplikacja przejdzie na miesięczną subskrypcję. Zapłać raz teraz i używaj aplikacji na zawsze bez ponownego płacenia! Skorzystaj zanim skończy się miesiąc!'
     },
     ru: {
         // Nav
@@ -1218,7 +1234,9 @@ const translations = {
         'promo.feature2': 'Без подписок',
         'promo.feature3': 'Бесплатные обновления навсегда',
         'promo.urgency': 'Предложение действует до конца февраля!',
-        'promo.skip': 'Может позже'
+        'promo.subscriptionWarning': 'С марта приложение перейдёт на ежемесячную подписку. Заплатите один раз сейчас и пользуйтесь приложением вечно без повторных платежей! Успейте до конца месяца!',
+        'promo.skip': 'Может позже',
+        'hero.subscriptionWarning': 'С марта приложение перейдёт на ежемесячную подписку. Заплатите один раз сейчас и пользуйтесь приложением вечно без повторных платежей! Успейте до конца месяца!'
     }
 };
 

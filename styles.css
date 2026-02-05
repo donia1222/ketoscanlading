@@ -3573,6 +3573,52 @@ body.has-smart-banner .navbar {
     animation: pulse 1s ease-in-out infinite;
 }
 
+/* Subscription Warning */
+.promo-subscription-warning {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.15) 0%, rgba(255, 142, 83, 0.15) 100%);
+    border: 1px solid rgba(255, 107, 107, 0.3);
+    color: #c62828;
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.promo-subscription-warning i {
+    color: #e53935;
+    font-size: 18px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+/* Hero Subscription Warning */
+.hero-subscription-warning {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.2) 0%, rgba(255, 142, 83, 0.2) 100%);
+    border: 1px solid rgba(255, 107, 107, 0.4);
+    color: #c62828;
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 16px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.hero-subscription-warning span:first-child {
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
 /* Buttons */
 .promo-buttons {
     display: flex;
@@ -3717,6 +3763,27 @@ body.has-smart-banner .navbar {
         padding: 8px 14px;
         font-size: 11px;
         margin-bottom: 16px;
+    }
+
+    .promo-subscription-warning {
+        padding: 12px 14px;
+        font-size: 11px;
+        margin-bottom: 14px;
+        gap: 8px;
+    }
+
+    .promo-subscription-warning i {
+        font-size: 16px;
+    }
+
+    .hero-subscription-warning {
+        padding: 12px 14px;
+        font-size: 12px;
+        gap: 8px;
+    }
+
+    .hero-subscription-warning span:first-child {
+        font-size: 16px;
     }
 
     .promo-buttons {
