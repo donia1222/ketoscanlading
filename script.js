@@ -125,6 +125,9 @@ const translations = {
         'footer.support': 'Support',
         'footer.language': 'Language:',
         'footer.rights': 'All rights reserved.',
+        'footer.promoQuestion': 'Want to create your own keto recipes?',
+        'promo.otherAppTitle': 'Discover another Keto App',
+        'promo.otherAppSubtitle': 'Create your own keto recipes with AI',
 
         // Promo Modal
         'promo.badge': 'Launch Offer',
@@ -257,6 +260,9 @@ const translations = {
         'footer.support': 'Soporte',
         'footer.language': 'Idioma:',
         'footer.rights': 'Todos los derechos reservados.',
+        'footer.promoQuestion': '¿Quieres crear tus propias recetas keto?',
+        'promo.otherAppTitle': 'Descubre otra App Keto',
+        'promo.otherAppSubtitle': 'Crea tus propias recetas keto con IA',
 
         // Promo Modal
         'promo.badge': 'Oferta de Lanzamiento',
@@ -389,6 +395,9 @@ const translations = {
         'footer.support': 'Support',
         'footer.language': 'Sprache:',
         'footer.rights': 'Alle Rechte vorbehalten.',
+        'footer.promoQuestion': 'Möchtest du deine eigenen Keto-Rezepte erstellen?',
+        'promo.otherAppTitle': 'Entdecke eine weitere Keto-App',
+        'promo.otherAppSubtitle': 'Erstelle deine eigenen Keto-Rezepte mit KI',
 
         // Promo Modal
         'promo.badge': 'Startangebot',
@@ -521,6 +530,9 @@ const translations = {
         'footer.support': 'Supporto',
         'footer.language': 'Lingua:',
         'footer.rights': 'Tutti i diritti riservati.',
+        'footer.promoQuestion': 'Vuoi creare le tue ricette keto?',
+        'promo.otherAppTitle': 'Scopri un\'altra App Keto',
+        'promo.otherAppSubtitle': 'Crea le tue ricette keto con l\'IA',
 
         // Promo Modal
         'promo.badge': 'Offerta di Lancio',
@@ -653,6 +665,9 @@ const translations = {
         'footer.support': 'Support',
         'footer.language': 'Langue:',
         'footer.rights': 'Tous droits réservés.',
+        'footer.promoQuestion': 'Voulez-vous créer vos propres recettes keto?',
+        'promo.otherAppTitle': 'Découvrez une autre App Keto',
+        'promo.otherAppSubtitle': 'Créez vos propres recettes keto avec l\'IA',
 
         // Promo Modal
         'promo.badge': 'Offre de Lancement',
@@ -785,6 +800,9 @@ const translations = {
         'footer.support': 'Support',
         'footer.language': 'Taal:',
         'footer.rights': 'Alle rechten voorbehouden.',
+        'footer.promoQuestion': 'Wil je je eigen keto-recepten maken?',
+        'promo.otherAppTitle': 'Ontdek een andere Keto App',
+        'promo.otherAppSubtitle': 'Maak je eigen keto-recepten met AI',
 
         // Promo Modal
         'promo.badge': 'Lanceringsaanbieding',
@@ -917,6 +935,9 @@ const translations = {
         'footer.support': 'Suporte',
         'footer.language': 'Idioma:',
         'footer.rights': 'Todos os direitos reservados.',
+        'footer.promoQuestion': 'Quer criar suas próprias receitas keto?',
+        'promo.otherAppTitle': 'Descubra outro App Keto',
+        'promo.otherAppSubtitle': 'Crie suas próprias receitas keto com IA',
 
         // Promo Modal
         'promo.badge': 'Oferta de Lançamento',
@@ -1049,6 +1070,9 @@ const translations = {
         'footer.support': 'Wsparcie',
         'footer.language': 'Język:',
         'footer.rights': 'Wszelkie prawa zastrzeżone.',
+        'footer.promoQuestion': 'Chcesz tworzyć własne przepisy keto?',
+        'promo.otherAppTitle': 'Odkryj inną aplikację Keto',
+        'promo.otherAppSubtitle': 'Twórz własne przepisy keto z AI',
 
         // Promo Modal
         'promo.badge': 'Oferta Premierowa',
@@ -1181,6 +1205,9 @@ const translations = {
         'footer.support': 'Поддержка',
         'footer.language': 'Язык:',
         'footer.rights': 'Все права защищены.',
+        'footer.promoQuestion': 'Хотите создавать свои собственные кето-рецепты?',
+        'promo.otherAppTitle': 'Откройте другое Keto приложение',
+        'promo.otherAppSubtitle': 'Создавайте свои кето-рецепты с ИИ',
 
         // Promo Modal
         'promo.badge': 'Стартовое Предложение',
