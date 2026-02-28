@@ -1253,7 +1253,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initCounterAnimation();
     initLanguageSelector();
     initHeroCarousel();
-    initPromoModal();
+    // initPromoModal();
 });
 
 /**

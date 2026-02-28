@@ -67,6 +67,7 @@ a.btn-secondary {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px;
+    margin-top: -50px;
 }
 
 /* ============================================
@@ -492,7 +493,7 @@ body.has-smart-banner .navbar {
 
 /* Hero Price Card */
 .hero-price-card {
-    background: white;
+    background: #daeeff;
     border-radius: 20px;
     padding: 24px 32px;
     margin-bottom: 32px;
