@@ -375,22 +375,21 @@ body.has-smart-banner .navbar {
     display: flex;
     align-items: center;
     padding-top: 70px;
-    background: url('hero-bg.png') center center / cover no-repeat;
+    background: #ffffff;
     overflow: hidden;
 }
 
 .hero::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(135deg,
-        rgba(232, 245, 233, 0.92),
-        rgba(227, 242, 253, 0.88),
-        rgba(224, 247, 250, 0.85));
+    top: -200px;
+    right: -200px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(30, 202, 229, 0.08), transparent 70%);
     z-index: 0;
+    pointer-events: none;
 }
 
 .hero-background {
@@ -401,10 +400,7 @@ body.has-smart-banner .navbar {
 }
 
 .gradient-orb {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(80px);
-    opacity: 0.6;
+    display: none;
 }
 
 .orb-1 {
@@ -493,15 +489,15 @@ body.has-smart-banner .navbar {
 
 /* Hero Price Card */
 .hero-price-card {
-    background: #daeeff;
+    background: #ffffff;
     border-radius: 20px;
     padding: 24px 32px;
     margin-bottom: 32px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 40px rgba(15, 23, 42, 0.06);
     display: inline-flex;
     align-items: center;
     gap: 32px;
-    border: 2px solid rgba(30, 202, 229, 0.2);
+    border: 1px solid #eef1f4;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -715,11 +711,10 @@ body.has-smart-banner .navbar {
     gap: 8px;
     font-size: 14px;
     font-weight: 600;
-    color: var(--text-medium);
-    background: rgba(255, 255, 255, 0.8);
-    padding: 8px 16px;
-    border-radius: 50px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    color: var(--text-light);
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
 }
 
 .trust-item i {
@@ -727,11 +722,12 @@ body.has-smart-banner .navbar {
 }
 
 .hero h1 {
-    font-size: 52px;
+    font-size: 72px;
     font-weight: 800;
-    line-height: 1.1;
+    line-height: 1.03;
+    letter-spacing: -2px;
     margin-bottom: 24px;
-    color: var(--text-dark);
+    color: #0f172a;
 }
 
 .gradient-text {
@@ -743,9 +739,10 @@ body.has-smart-banner .navbar {
 
 .hero-description {
     font-size: 18px;
-    color: var(--text-medium);
+    color: var(--text-light);
     line-height: 1.7;
     margin-bottom: 32px;
+    max-width: 500px;
 }
 
 .btn-primary {
@@ -1110,11 +1107,7 @@ body.has-smart-banner .navbar {
 }
 
 .hero-wave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 3;
+    display: none;
 }
 
 .hero-wave svg {
@@ -1263,6 +1256,92 @@ body.has-smart-banner .navbar {
     color: var(--text-light);
     font-size: 15px;
     line-height: 1.6;
+}
+
+/* ============================================
+   Additives Section (E-numbers)
+   ============================================ */
+.additives-section {
+    padding: 100px 0;
+    background: #ffffff;
+}
+
+.additives-badge {
+    background: linear-gradient(135deg, rgba(76, 175, 80, 0.12), rgba(76, 175, 80, 0.04));
+    color: #4CAF50;
+}
+
+.additives-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.additive-group {
+    background: #ffffff;
+    border: 1px solid #eef1f4;
+    border-radius: 20px;
+    padding: 28px;
+    transition: var(--transition);
+    border-top: 4px solid var(--c);
+}
+
+.additive-group:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+.additive-group-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.additive-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--c);
+    flex-shrink: 0;
+}
+
+.additive-group-head h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.additive-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.additive-chip {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 50px;
+    color: var(--c);
+    background: color-mix(in srgb, var(--c) 10%, white);
+    border: 1px solid color-mix(in srgb, var(--c) 25%, white);
+}
+
+.additives-note {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-light);
+}
+
+.additives-note i {
+    color: var(--primary);
+    margin-right: 6px;
 }
 
 /* ============================================
@@ -2554,6 +2633,10 @@ body.has-smart-banner .navbar {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .additives-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .testimonials-slider {
         grid-template-columns: 1fr;
         max-width: 500px;
@@ -2637,6 +2720,14 @@ body.has-smart-banner .navbar {
 
     .features-grid {
         grid-template-columns: 1fr;
+    }
+
+    .additives-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .additives-section {
+        padding: 70px 0;
     }
 
     .steps-container {
