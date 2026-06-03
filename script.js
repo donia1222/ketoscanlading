@@ -16,7 +16,7 @@ const translations = {
         // Hero
         'hero.badgeLifetime': 'Launch Promo! Limited time offer',
         'hero.newApp': 'New App',
-        'hero.title': 'Scan. Analyze.<br><span class="gradient-text">Decide Keto</span> 🥑',
+        'hero.title': 'Scan.<br>Analyze.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Instantly discover if a product is compatible with your keto diet. Scan the barcode and get a complete nutritional analysis with a 1 to 5 star rating.',
         'hero.priceOnce': 'one time',
         'hero.benefit1': 'No subscriptions',
@@ -153,7 +153,7 @@ const translations = {
         // Hero
         'hero.badgeLifetime': '¡Promo de Lanzamiento! Oferta limitada',
         'hero.newApp': 'Nueva App',
-        'hero.title': 'Escanea. Analiza.<br><span class="gradient-text">Decide Keto</span> 🥑',
+        'hero.title': 'Escanea.<br>Analiza.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Descubre al instante si un producto es compatible con tu dieta keto. Escanea el código de barras y obtén un análisis nutricional completo con rating de 1 a 5 estrellas.',
         'hero.priceOnce': 'pago único',
         'hero.benefit1': 'Sin suscripciones',
@@ -290,7 +290,7 @@ const translations = {
         // Hero
         'hero.badgeLifetime': 'Launch-Aktion! Zeitlich begrenzt',
         'hero.newApp': 'Neue App',
-        'hero.title': 'Scannen. Analysieren.<br><span class="gradient-text">Decide Keto</span> 🥑',
+        'hero.title': 'Scannen.<br>Analysieren.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Entdecken Sie sofort, ob ein Produkt mit Ihrer Keto-Diät kompatibel ist. Scannen Sie den Barcode und erhalten Sie eine vollständige Nährwertanalyse mit 1 bis 5 Sternen.',
         'hero.priceOnce': 'einmalig',
         'hero.benefit1': 'Keine Abonnements',
@@ -427,7 +427,7 @@ const translations = {
         // Hero
         'hero.badgeLifetime': 'Promo Lancio! Offerta limitata',
         'hero.newApp': 'Nuova App',
-        'hero.title': 'Scansiona. Analizza.<br><span class="gradient-text">Decide Keto</span> 🥑',
+        'hero.title': 'Scansiona.<br>Analizza.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Scopri subito se un prodotto è compatibile con la tua dieta keto. Scansiona il codice a barre e ottieni un\'analisi nutrizionale completa con valutazione da 1 a 5 stelle.',
         'hero.priceOnce': 'una tantum',
         'hero.benefit1': 'Nessun abbonamento',
@@ -564,7 +564,7 @@ const translations = {
         // Hero
         'hero.badgeLifetime': 'Promo Lancement! Offre limitée',
         'hero.newApp': 'Nouvelle App',
-        'hero.title': 'Scannez. Analysez.<br><span class="gradient-text">Decide Keto</span> 🥑',
+        'hero.title': 'Scannez.<br>Analysez.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Découvrez instantanément si un produit est compatible avec votre régime keto. Scannez le code-barres et obtenez une analyse nutritionnelle complète avec une note de 1 à 5 étoiles.',
         'hero.priceOnce': 'paiement unique',
         'hero.benefit1': 'Sans abonnement',
@@ -701,7 +701,7 @@ const translations = {
         // Hero
         'hero.badgeLifetime': 'Lancerings Promo! Beperkte aanbieding',
         'hero.newApp': 'Nieuwe App',
-        'hero.title': 'Scan. Analyseer.<br><span class="gradient-text">Decide Keto</span> 🥑',
+        'hero.title': 'Scan.<br>Analyseer.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Ontdek direct of een product compatibel is met je keto dieet. Scan de barcode en krijg een volledige voedingsanalyse met een 1 tot 5 sterren beoordeling.',
         'hero.priceOnce': 'eenmalig',
         'hero.benefit1': 'Geen abonnement',
@@ -838,7 +838,7 @@ const translations = {
         // Hero
         'hero.badgeLifetime': 'Promo de Lançamento! Oferta limitada',
         'hero.newApp': 'Novo App',
-        'hero.title': 'Escaneie. Analise.<br><span class="gradient-text">Decide Keto</span> 🥑',
+        'hero.title': 'Escaneie.<br>Analise.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Descubra instantaneamente se um produto é compatível com sua dieta keto. Escaneie o código de barras e obtenha uma análise nutricional completa com avaliação de 1 a 5 estrelas.',
         'hero.priceOnce': 'pagamento único',
         'hero.benefit1': 'Sem assinaturas',
@@ -975,7 +975,7 @@ const translations = {
         // Hero
         'hero.badgeLifetime': 'Promocja Premierowa! Oferta ograniczona',
         'hero.newApp': 'Nowa Aplikacja',
-        'hero.title': 'Skanuj. Analizuj.<br><span class="gradient-text">Decide Keto</span> 🥑',
+        'hero.title': 'Skanuj.<br>Analizuj.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Natychmiast dowiedz się, czy produkt jest kompatybilny z dietą keto. Zeskanuj kod kreskowy i uzyskaj pełną analizę wartości odżywczych z oceną od 1 do 5 gwiazdek.',
         'hero.priceOnce': 'jednorazowo',
         'hero.benefit1': 'Bez subskrypcji',
@@ -1112,7 +1112,7 @@ const translations = {
         // Hero
         'hero.badgeLifetime': 'Акция запуска! Ограниченное предложение',
         'hero.newApp': 'Новое Приложение',
-        'hero.title': 'Сканируй. Анализируй.<br><span class="gradient-text">Decide Keto</span> 🥑',
+        'hero.title': 'Сканируй.<br>Анализируй.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Мгновенно узнайте, совместим ли продукт с вашей кето-диетой. Отсканируйте штрих-код и получите полный анализ питательной ценности с оценкой от 1 до 5 звёзд.',
         'hero.priceOnce': 'разовый платёж',
         'hero.benefit1': 'Без подписок',
