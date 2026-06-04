@@ -402,8 +402,68 @@ body.has-smart-banner .navbar {
 @media (min-width: 1025px) {
     .hero {
         min-height: auto;
-        padding-top: 120px;
+        padding-top: 170px;
         padding-bottom: 80px;
+    }
+}
+
+/* Hero section navigator (desktop only) */
+.hero-section-nav {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    width: min(1180px, 92%);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 8px 24px rgba(31, 38, 135, 0.12);
+}
+
+.hero-section-nav a {
+    flex: 1 1 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #2d3748;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.hero-section-nav a i {
+    font-size: 0.85rem;
+    color: #1ecae5;
+}
+
+.hero-section-nav a:hover {
+    background: linear-gradient(135deg, #1ecae5, #7c4dff);
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.hero-section-nav a:hover i {
+    color: #fff;
+}
+
+/* Hide the hero navigator on mobile/tablet */
+@media (max-width: 1024px) {
+    .hero-section-nav {
+        display: none;
     }
 }
 
