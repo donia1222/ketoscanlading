@@ -75,7 +75,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'How It Works',
-        'howItWorks.title': 'How the <span class="text-blue">App</span> Works - Three Simple Steps',
+        'howItWorks.title': 'How the <span class="text-green">App</span> Works<br>Three Simple Steps',
         'howItWorks.subtitle': 'Discover if a product is keto in seconds',
         'howItWorks.step1.title': 'Open the Scanner',
         'howItWorks.step1.desc': "Press the scan button and point your camera at the product's barcode",
@@ -210,7 +210,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'Cómo Funciona',
-        'howItWorks.title': 'Cómo Funciona la <span class="text-blue">App</span> - Tres Pasos Simples',
+        'howItWorks.title': 'Cómo Funciona la <span class="text-green">App</span><br>Tres Pasos Simples',
         'howItWorks.subtitle': 'Descubre si un producto es keto en segundos',
         'howItWorks.step1.title': 'Abre el Scanner',
         'howItWorks.step1.desc': 'Presiona el botón de escanear y apunta la cámara al código de barras',
@@ -345,7 +345,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'Wie es funktioniert',
-        'howItWorks.title': 'Wie die <span class="text-blue">App</span> Funktioniert - Drei Einfache Schritte',
+        'howItWorks.title': 'Wie die <span class="text-green">App</span> Funktioniert<br>Drei Einfache Schritte',
         'howItWorks.subtitle': 'Entdecken Sie in Sekunden, ob ein Produkt Keto ist',
         'howItWorks.step1.title': 'Scanner öffnen',
         'howItWorks.step1.desc': 'Drücken Sie die Scan-Taste und richten Sie Ihre Kamera auf den Barcode',
@@ -480,7 +480,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'Come Funziona',
-        'howItWorks.title': 'Come Funziona l\'<span class="text-blue">App</span> - Tre Semplici Passi',
+        'howItWorks.title': 'Come Funziona l\'<span class="text-green">App</span> - Tre Semplici Passi',
         'howItWorks.subtitle': 'Scopri se un prodotto è keto in pochi secondi',
         'howItWorks.step1.title': 'Apri lo Scanner',
         'howItWorks.step1.desc': 'Premi il pulsante di scansione e punta la fotocamera sul codice a barre',
@@ -615,7 +615,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'Comment ça marche',
-        'howItWorks.title': 'Comment l\'<span class="text-blue">App</span> Fonctionne - Trois Étapes Simples',
+        'howItWorks.title': 'Comment l\'<span class="text-green">App</span> Fonctionne - Trois Étapes Simples',
         'howItWorks.subtitle': 'Découvrez si un produit est keto en quelques secondes',
         'howItWorks.step1.title': 'Ouvrez le Scanner',
         'howItWorks.step1.desc': 'Appuyez sur le bouton de scan et pointez votre caméra vers le code-barres',
@@ -750,7 +750,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'Hoe het werkt',
-        'howItWorks.title': 'Hoe de <span class="text-blue">App</span> Werkt - Drie Simpele Stappen',
+        'howItWorks.title': 'Hoe de <span class="text-green">App</span> Werkt<br>Drie Simpele Stappen',
         'howItWorks.subtitle': 'Ontdek in seconden of een product keto is',
         'howItWorks.step1.title': 'Open de Scanner',
         'howItWorks.step1.desc': 'Druk op de scan knop en richt je camera op de barcode',
@@ -885,7 +885,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'Como Funciona',
-        'howItWorks.title': 'Como o <span class="text-blue">App</span> Funciona - Três Passos Simples',
+        'howItWorks.title': 'Como o <span class="text-green">App</span> Funciona<br>Três Passos Simples',
         'howItWorks.subtitle': 'Descubra se um produto é keto em segundos',
         'howItWorks.step1.title': 'Abra o Scanner',
         'howItWorks.step1.desc': 'Pressione o botão de escanear e aponte a câmera para o código de barras',
@@ -1020,7 +1020,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'Jak to działa',
-        'howItWorks.title': 'Jak Działa <span class="text-blue">Aplikacja</span> - Trzy Proste Kroki',
+        'howItWorks.title': 'Jak Działa <span class="text-blue">Aplikacja</span><br>Trzy Proste Kroki',
         'howItWorks.subtitle': 'Dowiedz się w sekundy, czy produkt jest keto',
         'howItWorks.step1.title': 'Otwórz Skaner',
         'howItWorks.step1.desc': 'Naciśnij przycisk skanowania i skieruj aparat na kod kreskowy',
@@ -1155,7 +1155,7 @@ const translations = {
 
         // How it works
         'howItWorks.badge': 'Как это работает',
-        'howItWorks.title': 'Как работает <span class="text-blue">приложение</span> - Три простых шага',
+        'howItWorks.title': 'Как работает <span class="text-blue">приложение</span><br>Три простых шага',
         'howItWorks.subtitle': 'Узнайте за секунды, подходит ли продукт для кето',
         'howItWorks.step1.title': 'Откройте сканер',
         'howItWorks.step1.desc': 'Нажмите кнопку сканирования и наведите камеру на штрих-код',
