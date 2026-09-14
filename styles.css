@@ -4819,3 +4819,5 @@ html { background: #FDFAE9; }
 /* El banner: ancho calculado, no 100% + margenes (se salia por la derecha) */
 .smart-banner { width: auto; left: 12px; right: 12px; border-bottom: 0; padding: 10px 12px; }
 .smart-banner-info { flex: 1; min-width: 0; }
+/* En movil, los botones de tienda del hero sobran: el banner de abajo hace ese trabajo */
+@media (max-width: 1024px) { .hero-v3 .hero-cta { display: none; } body { padding-bottom: 96px; } }

@@ -1801,9 +1801,10 @@ console.log('%c Download the app and start your keto journey today! ', 'color: #
     let cerrado = false;
     function mirar() {
         if (cerrado) return;
-        const pasadoElHero = window.scrollY > (hero ? hero.offsetHeight * 0.6 : 400);
+        // En movil, siempre (el banner hace de botones de descarga); solo se
+        // esconde al llegar al pie.
         const pieALaVista = footer ? footer.getBoundingClientRect().top < window.innerHeight - 40 : false;
-        banner.classList.toggle('show', pasadoElHero && !pieALaVista);
+        banner.classList.toggle('show', !pieALaVista);
     }
     window.addEventListener('scroll', mirar, { passive: true });
     mirar();
