@@ -4815,3 +4815,4 @@ html { background: #FDFAE9; }
 .hero-background { display: none !important; }
 @media (min-width: 1025px) { .hero { padding-top: 150px; } }
 @media (max-width: 1024px) { .hero { padding-top: 56px; } }
+@media (min-width: 1025px) { .hero-section-nav { top: 28px; } .hero { padding-top: 170px; } }
