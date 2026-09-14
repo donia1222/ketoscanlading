@@ -211,12 +211,30 @@
         </nav>
         <div class="container hero-content">
             <div class="hero-text">
-                <div class="badge badge-nuevo"><span>✨</span> <span data-i18n="hero.new">New: version 1.0.5, redesigned from top to bottom</span></div>
                 <h1 class="hero-title" data-i18n="hero.title">Is it keto?<br><span class="gradient-text">Point at the barcode and know.</span></h1>
                 <p class="hero-description" data-i18n="hero.description">
                     Scan the barcode and in a second you have the net carbs, a 1–5 star keto rating and the additives. No label reading, no math in the aisle.
                 </p>
 
+            </div>
+            <div class="hero-visual">
+                <!-- El escaner de la app: codigo de barras, cinco estrellas, KETO -->
+                <div class="escaner" aria-hidden="true">
+                    <span class="escaner-etiqueta">SCANNER</span>
+                    <div class="escaner-visor">
+                        <i class="esq tl"></i><i class="esq tr"></i><i class="esq bl"></i><i class="esq br"></i>
+                        <div class="cuadro cuadro-codigo"><i style="width:6px"></i><i style="width:3px"></i><i style="width:9px"></i><i style="width:3px"></i><i style="width:6px"></i><i style="width:3px"></i><i style="width:12px"></i><i style="width:6px"></i><i style="width:3px"></i><i style="width:9px"></i><i style="width:3px"></i><i style="width:6px"></i><i style="width:3px"></i><i style="width:12px"></i><i style="width:3px"></i><i style="width:6px"></i><i style="width:9px"></i><i style="width:3px"></i><i style="width:6px"></i><i style="width:3px"></i><i style="width:12px"></i><i style="width:3px"></i><i style="width:6px"></i><i style="width:3px"></i><i style="width:9px"></i></div>
+                        <div class="cuadro cuadro-estrellas"><svg viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2l-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2l-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2l-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2l-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2l-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg></div>
+                        <div class="cuadro cuadro-keto">KETO</div>
+                        <div class="laser"></div>
+                    </div>
+                    <div class="escaner-boton">
+                        <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h3v2H5v3H3V5Zm13-2h3a2 2 0 0 1 2 2v3h-2V5h-3V3ZM3 16h2v3h3v2H5a2 2 0 0 1-2-2v-3Zm16 0h2v3a2 2 0 0 1-2 2h-3v-2h3v-3ZM7 8h2v8H7V8Zm4 0h1.5v8H11V8Zm3.5 0H16v8h-1.5V8Z"/></svg>
+                        <span data-i18n="hero.scanBtn">Scan barcode</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-abajo">
                 <div class="hero-benefits">
                     <div class="benefit-pill">
                         <span class="benefit-ico">✅</span>
@@ -250,23 +268,6 @@
                     </a>
                 </div>
                 <p class="hero-price" data-i18n="hero.price">US$5.99 once. No subscription, no ads, no account.</p>
-            </div>
-            <div class="hero-visual">
-                <!-- El escaner de la app: codigo de barras, cinco estrellas, KETO -->
-                <div class="escaner" aria-hidden="true">
-                    <span class="escaner-etiqueta">SCANNER</span>
-                    <div class="escaner-visor">
-                        <i class="esq tl"></i><i class="esq tr"></i><i class="esq bl"></i><i class="esq br"></i>
-                        <div class="cuadro cuadro-codigo"><i style="width:6px"></i><i style="width:3px"></i><i style="width:9px"></i><i style="width:3px"></i><i style="width:6px"></i><i style="width:3px"></i><i style="width:12px"></i><i style="width:6px"></i><i style="width:3px"></i><i style="width:9px"></i><i style="width:3px"></i><i style="width:6px"></i><i style="width:3px"></i><i style="width:12px"></i><i style="width:3px"></i><i style="width:6px"></i><i style="width:9px"></i><i style="width:3px"></i><i style="width:6px"></i><i style="width:3px"></i><i style="width:12px"></i><i style="width:3px"></i><i style="width:6px"></i><i style="width:3px"></i><i style="width:9px"></i></div>
-                        <div class="cuadro cuadro-estrellas"><svg viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2l-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2l-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2l-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2l-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.2l-6.1 3.4 1.4-6.8L2.2 9.1l6.9-.8L12 2Z"/></svg></div>
-                        <div class="cuadro cuadro-keto">KETO</div>
-                        <div class="laser"></div>
-                    </div>
-                    <div class="escaner-boton">
-                        <svg viewBox="0 0 24 24"><path d="M3 5a2 2 0 0 1 2-2h3v2H5v3H3V5Zm13-2h3a2 2 0 0 1 2 2v3h-2V5h-3V3ZM3 16h2v3h3v2H5a2 2 0 0 1-2-2v-3Zm16 0h2v3a2 2 0 0 1-2 2h-3v-2h3v-3ZM7 8h2v8H7V8Zm4 0h1.5v8H11V8Zm3.5 0H16v8h-1.5V8Z"/></svg>
-                        <span data-i18n="hero.scanBtn">Scan barcode</span>
-                    </div>
-                </div>
             </div>
         </div>
         
@@ -432,6 +433,32 @@
     </section>
 
     <!-- Is It Keto Section -->
+    <section class="app-screenshots" id="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge" data-i18n="screenshots.badge">App Preview</span>
+                <h2 data-i18n="screenshots.title">See <span class="text-green">Keto</span> Scanner in Action</h2>
+            </div>
+            <div class="screenshots-carousel">
+                <div class="screenshot-phone">
+                    <img class="screenshot-img" data-captura="1-scanner" src="capturas-app/en/1-scanner.jpg" alt="Keto Barcode Scanner">
+                </div>
+                <div class="screenshot-phone">
+                    <img class="screenshot-img" data-captura="2-producto" src="capturas-app/en/2-producto.jpg" alt="Keto Barcode Scanner">
+                </div>
+                <div class="screenshot-phone">
+                    <img class="screenshot-img" data-captura="3-descubrir" src="capturas-app/en/3-descubrir.jpg" alt="Keto Barcode Scanner">
+                </div>
+                <div class="screenshot-phone">
+                    <img class="screenshot-img" data-captura="4-buscar" src="capturas-app/en/4-buscar.jpg" alt="Keto Barcode Scanner">
+                </div>
+                <div class="screenshot-phone">
+                    <img class="screenshot-img" data-captura="5-comparar" src="capturas-app/en/5-comparar.jpg" alt="Keto Barcode Scanner">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="is-it-keto-section">
         <div class="is-it-keto-wave">
             <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
@@ -509,38 +536,22 @@
                     <span class="keto-word">Keto</span>
                     <span class="keto-icons">🥑❓</span>
                 </h3>
+                <div class="its-keto-video-container" onclick="playItsKetoVideo(this)">
+                    <video class="its-keto-video" playsinline poster="poster.png">
+                        <source src="362384ca-1e5f-4fbd-9342-17391608df22.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <div class="play-button-animated">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- App Screenshots Section -->
-    <section class="app-screenshots" id="screenshots">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-badge" data-i18n="screenshots.badge">App Preview</span>
-                <h2 data-i18n="screenshots.title">See <span class="text-green">Keto</span> Scanner in Action</h2>
-            </div>
-            <div class="screenshots-carousel">
-                <div class="screenshot-phone">
-                    <img class="screenshot-img" data-captura="1-scanner" src="capturas-app/en/1-scanner.jpg" alt="Keto Barcode Scanner">
-                </div>
-                <div class="screenshot-phone">
-                    <img class="screenshot-img" data-captura="2-producto" src="capturas-app/en/2-producto.jpg" alt="Keto Barcode Scanner">
-                </div>
-                <div class="screenshot-phone">
-                    <img class="screenshot-img" data-captura="3-descubrir" src="capturas-app/en/3-descubrir.jpg" alt="Keto Barcode Scanner">
-                </div>
-                <div class="screenshot-phone">
-                    <img class="screenshot-img" data-captura="4-buscar" src="capturas-app/en/4-buscar.jpg" alt="Keto Barcode Scanner">
-                </div>
-                <div class="screenshot-phone">
-                    <img class="screenshot-img" data-captura="5-comparar" src="capturas-app/en/5-comparar.jpg" alt="Keto Barcode Scanner">
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- How It Works Section -->
     <section class="how-it-works" id="how-it-works">
         <div class="container">

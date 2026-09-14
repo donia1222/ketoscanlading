@@ -4450,11 +4450,12 @@ body.has-smart-banner .navbar {
     justify-content: center;
     gap: 6px;
     opacity: 0;
-    animation: cuadroCiclo 9s ease-in-out infinite;
+    animation: cuadroCiclo 5s ease-in-out infinite;
 }
+/* Dos cuadros: el codigo, y KETO con las cinco estrellas detras */
 .escaner-visor .cuadro-codigo { animation-delay: 0s; gap: 3px; }
-.escaner-visor .cuadro-estrellas { animation-delay: 3s; gap: 8px; }
-.escaner-visor .cuadro-keto { animation-delay: 6s; }
+.escaner-visor .cuadro-estrellas { animation-delay: 2.5s; gap: 10px; }
+.escaner-visor .cuadro-keto { animation-delay: 2.5s; }
 .escaner-visor .cuadro-codigo i {
     display: block;
     height: 96px;
@@ -4462,22 +4463,21 @@ body.has-smart-banner .navbar {
     border-radius: 2px;
 }
 .escaner-visor .cuadro-estrellas svg {
-    width: 44px; height: 44px;
-    fill: #FFD54F;
-    filter: drop-shadow(0 4px 10px rgba(0,0,0,0.25));
+    width: 58px; height: 58px;
+    fill: rgba(255,255,255,0.28);
 }
 .escaner-visor .cuadro-keto {
     font-family: 'Fredoka', 'Inter', sans-serif;
     font-weight: 700;
     font-size: 84px;
     letter-spacing: 0.14em;
-    color: rgba(255,255,255,0.92);
+    color: rgba(255,255,255,0.95);
     text-shadow: 0 6px 24px rgba(0,0,0,0.25);
 }
 @keyframes cuadroCiclo {
-    0%      { opacity: 0; transform: scale(0.92); }
-    6%, 30% { opacity: 1; transform: scale(1); }
-    36%, 100% { opacity: 0; transform: scale(1.04); }
+    0%      { opacity: 0; transform: scale(0.94); }
+    10%, 44% { opacity: 1; transform: scale(1); }
+    54%, 100% { opacity: 0; transform: scale(1.04); }
 }
 .escaner-visor .laser {
     position: absolute;
@@ -4517,13 +4517,13 @@ body.has-smart-banner .navbar {
 }
 @media (prefers-reduced-motion: reduce) {
     .escaner, .escaner-visor .cuadro, .escaner-visor .laser { animation: none; }
-    .escaner-visor .cuadro-estrellas { opacity: 1; }
+    .escaner-visor .cuadro-estrellas, .escaner-visor .cuadro-keto { opacity: 1; }
 }
 @media (max-width: 768px) {
     .escaner { max-width: 360px; padding: 16px 16px 14px; }
     .escaner-visor { height: 170px; }
     .escaner-visor .cuadro-codigo i { height: 72px; }
-    .escaner-visor .cuadro-estrellas svg { width: 34px; height: 34px; }
+    .escaner-visor .cuadro-estrellas svg { width: 44px; height: 44px; }
     .escaner-visor .cuadro-keto { font-size: 62px; }
 }
 
@@ -4546,4 +4546,25 @@ body.has-smart-banner .navbar {
     padding: 8px 16px;
     border-radius: 999px;
     margin-top: 40px;
+}
+
+/* Hero en tres piezas: texto arriba-izquierda, animacion a la derecha,
+   chips y descargas abajo-izquierda. En movil: titulo, animacion, chips. */
+.hero-content {
+    grid-template-areas: "texto visual" "abajo visual";
+    align-items: start;
+}
+.hero-text { grid-area: texto; }
+.hero-visual { grid-area: visual; align-self: center; }
+.hero-abajo { grid-area: abajo; }
+.hero-abajo .hero-benefits { margin-top: 0; }
+@media (max-width: 1024px) {
+    .hero-content { grid-template-areas: "texto" "visual" "abajo"; gap: 28px; }
+    .hero-abajo { display: flex; flex-direction: column; align-items: center; }
+    .hero-abajo .hero-benefits { justify-content: center; }
+}
+.hero-content > * { min-width: 0; }
+@media (max-width: 1024px) {
+    .hero-abajo > * { width: 100%; max-width: 100%; }
+    .hero-abajo .hero-cta { justify-content: center; }
 }
