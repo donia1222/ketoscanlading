@@ -4652,3 +4652,20 @@ h3 { color: var(--text-medium); font-weight: 600; }
     .nav-brand .logo-img { width: 40px; height: 40px; border-radius: 11px; }
     .nav-brand .logo-text { font-size: 18px; color: var(--text-light); }
 }
+
+/* Hero en verde hoja: el titular y el recuadro, como el icono */
+.hero .gradient-text {
+    background: linear-gradient(135deg, #2E9E44, #1E8E3E);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.escaner {
+    background: linear-gradient(135deg, #3AAE55 0%, #1E8E3E 55%, #176B2F 100%);
+    box-shadow: 0 30px 80px rgba(30, 142, 62, 0.32), inset 0 1px 0 rgba(255,255,255,0.25);
+    padding-bottom: 22px;
+}
+.escaner-visor .laser {
+    background: linear-gradient(90deg, rgba(200,255,190,0) 0%, #DFFFC8 50%, rgba(200,255,190,0) 100%);
+    box-shadow: 0 0 14px 3px rgba(223,255,200,0.55);
+}
+/* La barra de escritorio, sin el icono: se junta con el menu */
+@media (min-width: 769px) { .nav-brand { display: none; } }
