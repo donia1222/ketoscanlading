@@ -4764,3 +4764,21 @@ body.has-smart-banner .navbar { top: 0 !important; }
 .telefono.t2 { right: 0; top: 110px; transform: rotate(5deg); }
 @media (max-width: 1024px) { .hero { padding-top: 96px; } .telefono { width: 230px; } .telefono.t1 { left: 2%; } .telefono.t2 { right: 2%; top: 70px; } }
 @media (max-width: 480px) { .telefono { width: 180px; } .hero-telefonos { height: 480px; } }
+
+/* Hero v4.1: sin icono, titulo arriba del todo; en movil: titulo, telefonos, sellos y descargas */
+html { background: #E8F0E6; }
+.hero { padding-top: 96px; }
+.hero-content.hero-v3 { grid-template-areas: "texto visual" "abajo visual"; align-items: start; }
+.hero-v3 .hero-abajo { grid-area: abajo; }
+.hero-v3 .hero-title { margin-top: 10px; margin-bottom: 26px; }
+.seccion-sub { max-width: 560px; margin: 8px auto 0; text-align: center; font-size: 16px; color: var(--text-light); line-height: 1.6; }
+@media (max-width: 1024px) {
+    .hero { padding-top: 24px; }
+    .hero-content.hero-v3 { grid-template-areas: "texto" "visual" "abajo"; gap: 10px; }
+    .hero-v3 .hero-title { margin-top: 0; margin-bottom: 8px; }
+    .hero-telefonos { height: 440px; }
+    .telefono { width: 200px; }
+    .telefono.t1 { left: 3%; top: 0; } .telefono.t2 { right: 3%; top: 40px; }
+    .hero-sellos { margin-top: 6px; }
+}
+@media (max-width: 480px) { .hero-telefonos { height: 400px; } .telefono { width: 176px; } }
