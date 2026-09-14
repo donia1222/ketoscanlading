@@ -4467,7 +4467,7 @@ body.has-smart-banner .navbar {
     fill: rgba(255,255,255,0.28);
 }
 .escaner-visor .cuadro-keto {
-    font-family: 'Fredoka', 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 84px;
     letter-spacing: 0.14em;
@@ -4502,7 +4502,7 @@ body.has-smart-banner .navbar {
     background: #fff;
     border-radius: 999px;
     padding: 15px 18px;
-    font-family: 'Fredoka', 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: #0F6E7C;
@@ -4592,13 +4592,19 @@ body.has-smart-banner .navbar {
 }
 body { background: var(--papel); }
 
-h1, h2, h3, h4, .section-badge, .logo-text, .store-button, .store-button-small,
+/* Dos letras, como en la app: Caveat Brush (la del icono) en los titulos e Inter en el resto */
+h3, h4, .section-badge, .logo-text, .store-button, .store-button-small,
 .benefit-pill, .download-feature, .feature-card h3, .step-card h3, .rating-item h3,
-.faq-question, .modal h2, .modal h3, .its-keto-title {
-    font-family: 'Fredoka', 'Inter', sans-serif;
+.faq-question, .modal h3 {
+    font-family: 'Inter', sans-serif;
 }
-h2 { color: var(--text-light); font-weight: 600; letter-spacing: -0.01em; }
-h3 { color: var(--text-medium); font-weight: 600; }
+h1, h2, .its-keto-title, .modal h2 {
+    font-family: 'Caveat Brush', 'Inter', cursive;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+}
+h2 { color: var(--text-light); font-size: clamp(38px, 5vw, 56px); line-height: 1.05; }
+h3 { color: var(--text-medium); font-weight: 700; }
 .text-green, .keto-word { color: var(--verde) !important; }
 .gradient-text {
     background: linear-gradient(135deg, #21A0B1, #0F6E7C);
@@ -4617,11 +4623,11 @@ h3 { color: var(--text-medium); font-weight: 600; }
     background-size: auto;
     animation: none;
 }
-.hero h1 { font-weight: 600; letter-spacing: -0.01em; color: var(--text-light); }
+.hero h1 { font-weight: 400; letter-spacing: 0.01em; color: var(--text-light); font-size: clamp(56px, 7vw, 108px); line-height: 1.0; }
 .hero-visual::before { background: radial-gradient(circle, rgba(33,160,177,0.22), rgba(30,142,62,0.10), transparent 70%); }
 .hero-wave svg path { fill: #FDFAE9; }
 .benefit-pill { background: rgba(255,255,255,0.7); border: 1px solid rgba(84,110,122,0.14); color: var(--text-medium); }
-.nav-links a { color: var(--text-light); font-family: 'Fredoka', 'Inter', sans-serif; font-weight: 600; }
+.nav-links a { color: var(--text-light); font-family: 'Inter', sans-serif; font-weight: 600; }
 .nav-links a:hover, .nav-links a.active { background: rgba(33,160,177,0.12); color: var(--primary-dark); }
 .hero-price { color: var(--primary-dark); }
 
