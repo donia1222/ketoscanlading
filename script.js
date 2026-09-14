@@ -29,7 +29,12 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Launch Promo! Limited time offer',
         'hero.newApp': 'New App',
-        'hero.title': 'Is it keto?<br><span class="gradient-text">Point at the barcode and know.</span>',
+        'hero.title': 'Scan.<br>Check.<br><span class="verde">Live keto.</span>',
+        'hero.sello1': 'Scan products',
+        'hero.sello2': 'Keto rating',
+        'hero.sello3': 'Better choices',
+        'banner.sub': 'US$5.99 once · No subscription',
+        'banner.cta': 'Get',
         'hero.description': 'Scan the barcode and in a second you have the net carbs, a 1–5 star keto rating and the additives. No label reading, no math in the aisle.',
         'hero.price': 'US$5.99 once. No subscription, no ads, no account.',
         'hero.scanBtn': 'Scan barcode',
@@ -159,7 +164,12 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': '¡Promo de Lanzamiento! Oferta limitada',
         'hero.newApp': 'Nueva App',
-        'hero.title': '¿Es keto?<br><span class="gradient-text">Apunta al código y lo sabes.</span>',
+        'hero.title': 'Escanea.<br>Comprueba.<br><span class="verde">Vive keto.</span>',
+        'hero.sello1': 'Escanea productos',
+        'hero.sello2': 'Nota keto',
+        'hero.sello3': 'Mejores decisiones',
+        'banner.sub': '5,99 € una vez · Sin suscripción',
+        'banner.cta': 'Descargar',
         'hero.description': 'Escanea el código de barras y en un segundo tienes los carbos netos, una nota keto de 1 a 5 estrellas y los aditivos. Sin leer etiquetas ni hacer cuentas en el pasillo.',
         'hero.price': '5,99 € una vez. Sin suscripción, sin anuncios, sin cuenta.',
         'hero.scanBtn': 'Escanear código de barras',
@@ -289,7 +299,12 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Launch-Aktion! Zeitlich begrenzt',
         'hero.newApp': 'Neue App',
-        'hero.title': 'Ist es Keto?<br><span class="gradient-text">Auf den Barcode zielen und Bescheid wissen.</span>',
+        'hero.title': 'Scannen.<br>Checken.<br><span class="verde">Keto leben.</span>',
+        'hero.sello1': 'Produkte scannen',
+        'hero.sello2': 'Keto-Bewertung',
+        'hero.sello3': 'Bessere Entscheidungen',
+        'banner.sub': '6,99 € einmalig · Kein Abo',
+        'banner.cta': 'Laden',
         'hero.description': 'Barcode scannen und in einer Sekunde hast du Netto-Kohlenhydrate, eine Keto-Bewertung von 1 bis 5 Sternen und die Zusatzstoffe. Kein Etikettenlesen, kein Kopfrechnen im Regal.',
         'hero.price': '6,99 € einmalig. Kein Abo, keine Werbung, kein Konto.',
         'hero.scanBtn': 'Barcode scannen',
@@ -419,7 +434,12 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Promo Lancio! Offerta limitata',
         'hero.newApp': 'Nuova App',
-        'hero.title': 'È keto?<br><span class="gradient-text">Inquadra il codice e lo sai.</span>',
+        'hero.title': 'Scansiona.<br>Controlla.<br><span class="verde">Vivi keto.</span>',
+        'hero.sello1': 'Scansiona prodotti',
+        'hero.sello2': 'Punteggio keto',
+        'hero.sello3': 'Scelte migliori',
+        'banner.sub': '6,99 € una volta · Niente abbonamento',
+        'banner.cta': 'Scarica',
         'hero.description': 'Scansiona il codice a barre e in un secondo hai i carboidrati netti, un punteggio keto da 1 a 5 stelle e gli additivi. Niente etichette da leggere, niente calcoli tra gli scaffali.',
         'hero.price': '6,99 € una volta. Niente abbonamento, niente pubblicità, niente account.',
         'hero.scanBtn': 'Scansiona il codice',
@@ -549,7 +569,12 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Promo Lancement! Offre limitée',
         'hero.newApp': 'Nouvelle App',
-        'hero.title': 'C’est keto ?<br><span class="gradient-text">Visez le code-barres et vous le savez.</span>',
+        'hero.title': 'Scanne.<br>Vérifie.<br><span class="verde">Vis keto.</span>',
+        'hero.sello1': 'Scanner des produits',
+        'hero.sello2': 'Note keto',
+        'hero.sello3': 'Meilleurs choix',
+        'banner.sub': '6,99 € une fois · Sans abonnement',
+        'banner.cta': 'Télécharger',
         'hero.description': 'Scannez le code-barres et en une seconde vous avez les glucides nets, une note keto de 1 à 5 étoiles et les additifs. Pas d’étiquette à lire, pas de calcul dans le rayon.',
         'hero.price': '6,99 € une fois. Sans abonnement, sans pub, sans compte.',
         'hero.scanBtn': 'Scanner le code-barres',
@@ -679,7 +704,12 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Lancerings Promo! Beperkte aanbieding',
         'hero.newApp': 'Nieuwe App',
-        'hero.title': 'Is het keto?<br><span class="gradient-text">Richt op de barcode en je weet het.</span>',
+        'hero.title': 'Scan.<br>Check.<br><span class="verde">Leef keto.</span>',
+        'hero.sello1': 'Producten scannen',
+        'hero.sello2': 'Keto-score',
+        'hero.sello3': 'Betere keuzes',
+        'banner.sub': '€ 6,99 eenmalig · Geen abonnement',
+        'banner.cta': 'Download',
         'hero.description': 'Scan de barcode en binnen een seconde heb je de netto koolhydraten, een keto-score van 1 tot 5 sterren en de additieven. Geen etiketten lezen, geen rekenwerk in het gangpad.',
         'hero.price': '€ 6,99 eenmalig. Geen abonnement, geen reclame, geen account.',
         'hero.scanBtn': 'Barcode scannen',
@@ -809,7 +839,12 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Promo de Lançamento! Oferta limitada',
         'hero.newApp': 'Novo App',
-        'hero.title': 'É keto?<br><span class="gradient-text">Aponte para o código e saiba.</span>',
+        'hero.title': 'Escaneie.<br>Confira.<br><span class="verde">Viva keto.</span>',
+        'hero.sello1': 'Escanear produtos',
+        'hero.sello2': 'Nota keto',
+        'hero.sello3': 'Melhores escolhas',
+        'banner.sub': 'Paga uma vez · Sem assinatura',
+        'banner.cta': 'Baixar',
         'hero.description': 'Escaneie o código de barras e em um segundo você tem os carboidratos líquidos, uma nota keto de 1 a 5 estrelas e os aditivos. Sem ler rótulos, sem contas no corredor.',
         'hero.price': 'Paga uma vez. Sem assinatura, sem anúncios, sem conta.',
         'hero.scanBtn': 'Escanear código de barras',
@@ -939,7 +974,12 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Promocja Premierowa! Oferta ograniczona',
         'hero.newApp': 'Nowa Aplikacja',
-        'hero.title': 'Czy to keto?<br><span class="gradient-text">Nakieruj na kod i już wiesz.</span>',
+        'hero.title': 'Skanuj.<br>Sprawdź.<br><span class="verde">Żyj keto.</span>',
+        'hero.sello1': 'Skanuj produkty',
+        'hero.sello2': 'Ocena keto',
+        'hero.sello3': 'Lepsze wybory',
+        'banner.sub': 'Płacisz raz · Bez subskrypcji',
+        'banner.cta': 'Pobierz',
         'hero.description': 'Zeskanuj kod kreskowy i w sekundę masz węglowodany netto, ocenę keto od 1 do 5 gwiazdek i dodatki. Bez czytania etykiet, bez liczenia między półkami.',
         'hero.price': 'Płacisz raz. Bez subskrypcji, bez reklam, bez konta.',
         'hero.scanBtn': 'Skanuj kod kreskowy',
@@ -1069,7 +1109,12 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Акция запуска! Ограниченное предложение',
         'hero.newApp': 'Новое Приложение',
-        'hero.title': 'Это кето?<br><span class="gradient-text">Наведи на штрихкод — и знаешь.</span>',
+        'hero.title': 'Сканируй.<br>Проверь.<br><span class="verde">Живи кето.</span>',
+        'hero.sello1': 'Сканируй продукты',
+        'hero.sello2': 'Кето-оценка',
+        'hero.sello3': 'Лучший выбор',
+        'banner.sub': 'Разовая покупка · Без подписки',
+        'banner.cta': 'Скачать',
         'hero.description': 'Отсканируй штрихкод — и через секунду у тебя чистые углеводы, кето-оценка от 1 до 5 звёзд и добавки. Без чтения этикеток и подсчётов у полки.',
         'hero.price': 'Разовая покупка. Без подписки, без рекламы, без аккаунта.',
         'hero.scanBtn': 'Сканировать штрихкод',
@@ -1356,6 +1401,9 @@ function updatePageLanguage(lang) {
     const idiomaCapturas = ['es', 'en', 'de'].includes(lang) ? lang : 'en';
     document.querySelectorAll('img[data-captura]').forEach(img => {
         img.src = `capturas-app/${idiomaCapturas}/${img.dataset.captura}.jpg`;
+    });
+    document.querySelectorAll('img[data-hero]').forEach(img => {
+        img.src = `capturas-app/hero/${idiomaCapturas}-${img.dataset.hero}.jpg`;
     });
 
     // Update HTML lang attribute
@@ -1743,12 +1791,19 @@ console.log('%c Download the app and start your keto journey today! ', 'color: #
         : 'https://play.google.com/store/apps/details?id=com.lwebch.KetoScanner';
 
     viewBtn.href = storeUrl;
-    banner.classList.add('show');
-    document.body.classList.add('has-smart-banner');
+
+    // Como en la landing de horas: la cabecera limpia; el banner aparece al
+    // bajar la mitad de la pagina, flotando abajo.
+    let mostrado = false;
+    function mirar() {
+        if (mostrado) return;
+        const recorrido = window.scrollY / Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+        if (recorrido > 0.5) { mostrado = true; banner.classList.add('show'); window.removeEventListener('scroll', mirar); }
+    }
+    window.addEventListener('scroll', mirar, { passive: true });
 
     closeBtn.addEventListener('click', function() {
         banner.classList.remove('show');
-        document.body.classList.remove('has-smart-banner');
         sessionStorage.setItem('smartBannerClosed', '1');
     });
 })();
