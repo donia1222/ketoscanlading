@@ -29,7 +29,7 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Launch Promo! Limited time offer',
         'hero.newApp': 'New App',
-        'hero.title': 'Scan.<br>Check.<br><span class="verde">Live keto.</span>',
+        'hero.title': 'Scan. Check.<br><span class="verde">Live keto.</span>',
         'hero.sello1': 'Scan products',
         'hero.sello2': 'Keto rating',
         'hero.sello3': 'Better choices',
@@ -164,7 +164,7 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': '¡Promo de Lanzamiento! Oferta limitada',
         'hero.newApp': 'Nueva App',
-        'hero.title': 'Escanea.<br>Comprueba.<br><span class="verde">Vive keto.</span>',
+        'hero.title': 'Escanea. Comprueba.<br><span class="verde">Vive keto.</span>',
         'hero.sello1': 'Escanea productos',
         'hero.sello2': 'Nota keto',
         'hero.sello3': 'Mejores decisiones',
@@ -299,7 +299,7 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Launch-Aktion! Zeitlich begrenzt',
         'hero.newApp': 'Neue App',
-        'hero.title': 'Scannen.<br>Checken.<br><span class="verde">Keto leben.</span>',
+        'hero.title': 'Scannen. Checken.<br><span class="verde">Keto leben.</span>',
         'hero.sello1': 'Produkte scannen',
         'hero.sello2': 'Keto-Bewertung',
         'hero.sello3': 'Bessere Entscheidungen',
@@ -434,7 +434,7 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Promo Lancio! Offerta limitata',
         'hero.newApp': 'Nuova App',
-        'hero.title': 'Scansiona.<br>Controlla.<br><span class="verde">Vivi keto.</span>',
+        'hero.title': 'Scansiona. Controlla.<br><span class="verde">Vivi keto.</span>',
         'hero.sello1': 'Scansiona prodotti',
         'hero.sello2': 'Punteggio keto',
         'hero.sello3': 'Scelte migliori',
@@ -569,7 +569,7 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Promo Lancement! Offre limitée',
         'hero.newApp': 'Nouvelle App',
-        'hero.title': 'Scanne.<br>Vérifie.<br><span class="verde">Vis keto.</span>',
+        'hero.title': 'Scanne. Vérifie.<br><span class="verde">Vis keto.</span>',
         'hero.sello1': 'Scanner des produits',
         'hero.sello2': 'Note keto',
         'hero.sello3': 'Meilleurs choix',
@@ -704,7 +704,7 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Lancerings Promo! Beperkte aanbieding',
         'hero.newApp': 'Nieuwe App',
-        'hero.title': 'Scan.<br>Check.<br><span class="verde">Leef keto.</span>',
+        'hero.title': 'Scan. Check.<br><span class="verde">Leef keto.</span>',
         'hero.sello1': 'Producten scannen',
         'hero.sello2': 'Keto-score',
         'hero.sello3': 'Betere keuzes',
@@ -839,7 +839,7 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Promo de Lançamento! Oferta limitada',
         'hero.newApp': 'Novo App',
-        'hero.title': 'Escaneie.<br>Confira.<br><span class="verde">Viva keto.</span>',
+        'hero.title': 'Escaneie. Confira.<br><span class="verde">Viva keto.</span>',
         'hero.sello1': 'Escanear produtos',
         'hero.sello2': 'Nota keto',
         'hero.sello3': 'Melhores escolhas',
@@ -974,7 +974,7 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Promocja Premierowa! Oferta ograniczona',
         'hero.newApp': 'Nowa Aplikacja',
-        'hero.title': 'Skanuj.<br>Sprawdź.<br><span class="verde">Żyj keto.</span>',
+        'hero.title': 'Skanuj. Sprawdź.<br><span class="verde">Żyj keto.</span>',
         'hero.sello1': 'Skanuj produkty',
         'hero.sello2': 'Ocena keto',
         'hero.sello3': 'Lepsze wybory',
@@ -1109,7 +1109,7 @@ const translations = {
         // Hero
         // 'hero.badgeLifetime': 'Акция запуска! Ограниченное предложение',
         'hero.newApp': 'Новое Приложение',
-        'hero.title': 'Сканируй.<br>Проверь.<br><span class="verde">Живи кето.</span>',
+        'hero.title': 'Сканируй. Проверь.<br><span class="verde">Живи кето.</span>',
         'hero.sello1': 'Сканируй продукты',
         'hero.sello2': 'Кето-оценка',
         'hero.sello3': 'Лучший выбор',
