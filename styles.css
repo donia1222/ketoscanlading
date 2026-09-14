@@ -4799,3 +4799,11 @@ html { background: #FDFAE9; }
     .hero-v3 .hero-abajo { margin-top: 6px; }
 }
 @media (max-width: 480px) { .hero-telefonos { height: 470px; } .telefono { width: 190px; } }
+/* Hero v4.3: una banda crema solida arriba, del mismo color que la barra de estado */
+.hero { background-color: #FDFAE9; }
+.hero::before { background: linear-gradient(180deg, #FDFAE9 0%, #FDFAE9 12%, rgba(253,250,233,.93) 26%, rgba(253,250,233,.80) 45%, rgba(253,250,233,.40) 72%, rgba(253,250,233,0) 100%) !important; }
+@media (min-width: 1025px) {
+    .hero::before { background:
+        linear-gradient(180deg, #FDFAE9 0%, #FDFAE9 8%, rgba(253,250,233,0) 26%),
+        radial-gradient(ellipse 70% 80% at 22% 45%, rgba(253,250,233,.92) 0%, rgba(253,250,233,.78) 40%, rgba(253,250,233,.35) 70%, rgba(253,250,233,0) 100%) !important; }
+}
