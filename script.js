@@ -32,9 +32,8 @@ const translations = {
         'hero.title': 'Scan.<br>Analyze.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Instantly discover if a product is compatible with your keto diet. Scan the barcode and get a complete nutritional analysis with a 1 to 5 star rating.',
         'hero.priceOnce': 'one time',
-        'hero.benefit1': 'No subscriptions',
+        'hero.benefit1': 'Pay once, no subscription',
         'hero.benefit2': 'Lifetime access',
-        'hero.promoText': 'Launch Promo! 80% OFF until end of January',
         'hero.launchMessage': '🎉 We just launched! Get lifetime access at this special price before it goes back to $10',
         'hero.offerDates': '<i class="fab fa-apple"></i> iOS from 01/26/2026 · <i class="fab fa-google-play"></i> Android from 01/27/2026',
         'hero.offerUrgency': 'Offer valid until end of January. Take advantage!!',
@@ -60,11 +59,11 @@ const translations = {
         'features.rating.title': 'Keto Rating',
         'features.rating.desc': '1 to 5 star system based on net carbs per 100g',
         'features.history.title': 'History',
-        'features.history.desc': 'Automatically saves your last 50 scanned products',
+        'features.history.desc': 'Every product you scan, saved with your favorites',
         'features.community.title': 'Community',
         'features.community.desc': "See other users' recent scans in real time",
         'features.language.title': 'Multi-language',
-        'features.language.desc': 'Available in 10 languages. Switch with one tap',
+        'features.language.desc': 'Available in 9 languages. Switch with one tap',
 
         // How it works
         'howItWorks.badge': 'How It Works',
@@ -98,23 +97,14 @@ const translations = {
         'rating.r1.desc': 'Not suitable for keto diet',
 
         // Testimonials
-        'testimonials.badge': 'Testimonials',
-        'testimonials.title': 'What our users say',
-        'testimonials.t1.text': 'This app changed the way I shop. I no longer waste time reading labels, I just scan and go.',
-        'testimonials.t1.title': 'User since 2024',
-        'testimonials.t2.text': 'The star system is super intuitive. In seconds I know if a product fits my diet. 100% recommended.',
-        'testimonials.t2.title': 'Keto for 2 years',
-        'testimonials.t3.text': "I love being able to see what other users are scanning. I've discovered keto products I didn't know about thanks to the community.",
-        'testimonials.t3.title': 'Keto enthusiast',
 
         // Download
-        'download.title': 'Download Keto Scanner App for Only $1.99',
+        'download.title': 'Download Keto Barcode Scanner App for Only $1.99',
         'download.subtitle': 'One-time payment, no subscriptions. Available now on iOS & Android.',
         'download.downloadOn': 'Download on',
         'download.getItOn': 'Get it on',
         'download.comingSoon': 'Coming Soon',
-        'download.promoText': 'Only until end of January 2026. Get it now!',
-        'download.feature1': 'One-time $1.99',
+        'download.feature1': 'One-time purchase',
         'download.feature2': 'No subscriptions',
         'download.feature3': 'Free updates',
 
@@ -139,21 +129,8 @@ const translations = {
         'footer.language': 'Language:',
         'footer.rights': 'All rights reserved.',
         'footer.promoQuestion': 'Want to create your own keto recipes?',
-        'promo.otherAppTitle': 'Discover another Keto App',
-        'promo.otherAppSubtitle': 'Create your own keto recipes with AI',
 
         // Promo Modal
-        'promo.badge': 'Launch Offer',
-        'promo.title': 'Fresh Out of the Oven!',
-        'promo.subtitle': 'Keto Scanner just launched',
-        'promo.oneTime': 'One-time payment',
-        'promo.feature1': 'Lifetime access',
-        'promo.feature2': 'No subscriptions',
-        'promo.feature3': 'Free updates forever',
-        'promo.urgency': 'Offer valid until end of February!',
-        'promo.subscriptionWarning': 'From March, the app will switch to monthly subscription. Pay once now and use the app forever without paying again. Take advantage before the month ends!',
-        'promo.skip': 'Maybe later',
-        'hero.subscriptionWarning': 'From March, the app will switch to monthly subscription. Pay once now and use the app forever without paying again. Take advantage before the month ends!'
     },
     es: {
         // Nav
@@ -182,9 +159,8 @@ const translations = {
         'hero.title': 'Escanea.<br>Analiza.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Descubre al instante si un producto es compatible con tu dieta keto. Escanea el código de barras y obtén un análisis nutricional completo con rating de 1 a 5 estrellas.',
         'hero.priceOnce': 'pago único',
-        'hero.benefit1': 'Sin suscripciones',
+        'hero.benefit1': 'Pagas una vez, sin suscripción',
         'hero.benefit2': 'Acceso de por vida',
-        'hero.promoText': '¡Promo de Lanzamiento! 80% OFF hasta final de enero',
         'hero.launchMessage': '🎉 ¡Acabamos de lanzar! Obtén acceso de por vida a este precio especial antes de que vuelva a $10',
         'hero.offerDates': '<i class="fab fa-apple"></i> iOS desde el 26.01.2026 · <i class="fab fa-google-play"></i> Android desde el 27.01.2026',
         'hero.offerUrgency': 'Oferta válida hasta final de enero. ¡¡Aprovecha!!',
@@ -210,11 +186,11 @@ const translations = {
         'features.rating.title': 'Rating Keto',
         'features.rating.desc': 'Sistema de 1 a 5 estrellas basado en carbohidratos netos por 100g',
         'features.history.title': 'Historial',
-        'features.history.desc': 'Guarda automáticamente los últimos 50 productos escaneados',
+        'features.history.desc': 'Cada producto que escaneas, guardado con tus favoritos',
         'features.community.title': 'Comunidad',
         'features.community.desc': 'Ve los escaneos recientes de otros usuarios en tiempo real',
         'features.language.title': 'Multi-idioma',
-        'features.language.desc': 'Disponible en 10 idiomas. Cambia con un solo toque',
+        'features.language.desc': 'Disponible en 9 idiomas. Cambia con un solo toque',
 
         // How it works
         'howItWorks.badge': 'Cómo Funciona',
@@ -248,23 +224,14 @@ const translations = {
         'rating.r1.desc': 'No apto para dieta keto',
 
         // Testimonials
-        'testimonials.badge': 'Testimonios',
-        'testimonials.title': 'Lo que dicen nuestros usuarios',
-        'testimonials.t1.text': 'Esta app cambió mi forma de hacer las compras. Ya no pierdo tiempo leyendo etiquetas, simplemente escaneo y listo.',
-        'testimonials.t1.title': 'Usuario desde 2024',
-        'testimonials.t2.text': 'El sistema de estrellas es súper intuitivo. En segundos sé si un producto encaja en mi dieta. 100% recomendada.',
-        'testimonials.t2.title': 'Keto desde hace 2 años',
-        'testimonials.t3.text': 'Me encanta poder ver lo que otros usuarios están escaneando. He descubierto productos keto que no conocía gracias a la comunidad.',
-        'testimonials.t3.title': 'Entusiasta del keto',
 
         // Download
-        'download.title': 'Descarga Keto Scanner por Solo $1.99',
+        'download.title': 'Descarga Keto Barcode Scanner por Solo $1.99',
         'download.subtitle': 'Pago único, sin suscripciones. Disponible ahora en iOS y Android.',
         'download.downloadOn': 'Descargar en',
         'download.getItOn': 'Disponible en',
         'download.comingSoon': 'Próximamente',
-        'download.promoText': 'Solo hasta final de enero de 2026. ¡Aprovecha ahora!',
-        'download.feature1': 'Pago único $1.99',
+        'download.feature1': 'Pago único',
         'download.feature2': 'Sin suscripciones',
         'download.feature3': 'Actualizaciones gratis',
 
@@ -289,21 +256,8 @@ const translations = {
         'footer.language': 'Idioma:',
         'footer.rights': 'Todos los derechos reservados.',
         'footer.promoQuestion': '¿Quieres crear tus propias recetas keto?',
-        'promo.otherAppTitle': 'Descubre otra App Keto',
-        'promo.otherAppSubtitle': 'Crea tus propias recetas keto con IA',
 
         // Promo Modal
-        'promo.badge': 'Oferta de Lanzamiento',
-        'promo.title': '¡Recién Salido del Horno!',
-        'promo.subtitle': 'Keto Scanner acaba de lanzarse',
-        'promo.oneTime': 'Pago único',
-        'promo.feature1': 'Acceso de por vida',
-        'promo.feature2': 'Sin suscripciones',
-        'promo.feature3': 'Actualizaciones gratis siempre',
-        'promo.urgency': '¡Oferta válida hasta final de febrero!',
-        'promo.subscriptionWarning': 'A partir de marzo, la app pasará a suscripción mensual. ¡Paga una sola vez ahora y usa la app para siempre sin volver a pagar! ¡Aprovecha antes de que termine el mes!',
-        'promo.skip': 'Quizás luego',
-        'hero.subscriptionWarning': 'A partir de marzo, la app pasará a suscripción mensual. ¡Paga una sola vez ahora y usa la app para siempre sin volver a pagar! ¡Aprovecha antes de que termine el mes!'
     },
     de: {
         // Nav
@@ -332,9 +286,8 @@ const translations = {
         'hero.title': 'Scannen.<br>Analysieren.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Entdecken Sie sofort, ob ein Produkt mit Ihrer Keto-Diät kompatibel ist. Scannen Sie den Barcode und erhalten Sie eine vollständige Nährwertanalyse mit 1 bis 5 Sternen.',
         'hero.priceOnce': 'einmalig',
-        'hero.benefit1': 'Keine Abonnements',
+        'hero.benefit1': 'Einmal zahlen, kein Abo',
         'hero.benefit2': 'Lebenslanger Zugang',
-        'hero.promoText': 'Launch-Aktion! 80% Rabatt bis Ende Januar',
         'hero.launchMessage': '🎉 Gerade gestartet! Holen Sie sich lebenslangen Zugang zu diesem Sonderpreis, bevor er auf $10 steigt',
         'hero.offerDates': '<i class="fab fa-apple"></i> iOS ab 26.01.2026 · <i class="fab fa-google-play"></i> Android ab 27.01.2026',
         'hero.offerUrgency': 'Angebot gültig bis Ende Januar. Jetzt zugreifen!!',
@@ -360,11 +313,11 @@ const translations = {
         'features.rating.title': 'Keto-Bewertung',
         'features.rating.desc': '1 bis 5 Sterne-System basierend auf Netto-Kohlenhydraten pro 100g',
         'features.history.title': 'Verlauf',
-        'features.history.desc': 'Speichert automatisch die letzten 50 gescannten Produkte',
+        'features.history.desc': 'Jedes gescannte Produkt, gespeichert mit deinen Favoriten',
         'features.community.title': 'Community',
         'features.community.desc': 'Sehen Sie die neuesten Scans anderer Benutzer in Echtzeit',
         'features.language.title': 'Mehrsprachig',
-        'features.language.desc': 'Verfügbar in 10 Sprachen. Mit einem Tippen wechseln',
+        'features.language.desc': 'Verfügbar in 9 Sprachen. Mit einem Tippen wechseln',
 
         // How it works
         'howItWorks.badge': 'Wie es funktioniert',
@@ -398,23 +351,14 @@ const translations = {
         'rating.r1.desc': 'Nicht geeignet für Keto-Diät',
 
         // Testimonials
-        'testimonials.badge': 'Erfahrungsberichte',
-        'testimonials.title': 'Was unsere Benutzer sagen',
-        'testimonials.t1.text': 'Diese App hat meine Art einzukaufen verändert. Ich verschwende keine Zeit mehr mit dem Lesen von Etiketten, ich scanne einfach und fertig.',
-        'testimonials.t1.title': 'Benutzer seit 2024',
-        'testimonials.t2.text': 'Das Sterne-System ist super intuitiv. In Sekunden weiß ich, ob ein Produkt zu meiner Diät passt. 100% empfohlen.',
-        'testimonials.t2.title': 'Keto seit 2 Jahren',
-        'testimonials.t3.text': 'Ich liebe es, zu sehen was andere Benutzer scannen. Ich habe Keto-Produkte entdeckt, die ich dank der Community nicht kannte.',
-        'testimonials.t3.title': 'Keto-Enthusiast',
 
         // Download
-        'download.title': 'Keto Scanner für nur $1.99 herunterladen',
+        'download.title': 'Keto Barcode Scanner für nur $1.99 herunterladen',
         'download.subtitle': 'Einmalzahlung, keine Abonnements. Jetzt verfügbar für iOS & Android.',
         'download.downloadOn': 'Laden im',
         'download.getItOn': 'Jetzt bei',
         'download.comingSoon': 'Demnächst',
-        'download.promoText': 'Nur bis Ende Januar 2026. Jetzt zugreifen!',
-        'download.feature1': 'Einmalig $1.99',
+        'download.feature1': 'Einmalzahlung',
         'download.feature2': 'Keine Abonnements',
         'download.feature3': 'Kostenlose Updates',
 
@@ -439,21 +383,8 @@ const translations = {
         'footer.language': 'Sprache:',
         'footer.rights': 'Alle Rechte vorbehalten.',
         'footer.promoQuestion': 'Möchtest du deine eigenen Keto-Rezepte erstellen?',
-        'promo.otherAppTitle': 'Entdecke eine weitere Keto-App',
-        'promo.otherAppSubtitle': 'Erstelle deine eigenen Keto-Rezepte mit KI',
 
         // Promo Modal
-        'promo.badge': 'Startangebot',
-        'promo.title': 'Frisch aus dem Ofen!',
-        'promo.subtitle': 'Keto Scanner ist gerade gestartet',
-        'promo.oneTime': 'Einmalzahlung',
-        'promo.feature1': 'Lebenslanger Zugang',
-        'promo.feature2': 'Keine Abonnements',
-        'promo.feature3': 'Kostenlose Updates für immer',
-        'promo.urgency': 'Angebot gültig bis Ende Februar!',
-        'promo.subscriptionWarning': 'Ab März wird die App auf monatliches Abo umgestellt. Zahle jetzt einmal und nutze die App für immer ohne erneut zu zahlen! Nutze die Chance bevor der Monat endet!',
-        'promo.skip': 'Vielleicht später',
-        'hero.subscriptionWarning': 'Ab März wird die App auf monatliches Abo umgestellt. Zahle jetzt einmal und nutze die App für immer ohne erneut zu zahlen! Nutze die Chance bevor der Monat endet!'
     },
     it: {
         // Nav
@@ -482,9 +413,8 @@ const translations = {
         'hero.title': 'Scansiona.<br>Analizza.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Scopri subito se un prodotto è compatibile con la tua dieta keto. Scansiona il codice a barre e ottieni un\'analisi nutrizionale completa con valutazione da 1 a 5 stelle.',
         'hero.priceOnce': 'una tantum',
-        'hero.benefit1': 'Nessun abbonamento',
+        'hero.benefit1': 'Paghi una volta, niente abbonamento',
         'hero.benefit2': 'Accesso a vita',
-        'hero.promoText': 'Promo Lancio! 80% di sconto fino a fine gennaio',
         'hero.launchMessage': '🎉 Appena lanciato! Ottieni l\'accesso a vita a questo prezzo speciale prima che torni a $10',
         'hero.offerDates': '<i class="fab fa-apple"></i> iOS dal 26.01.2026 · <i class="fab fa-google-play"></i> Android dal 27.01.2026',
         'hero.offerUrgency': 'Offerta valida fino a fine gennaio. Approfittane!!',
@@ -510,11 +440,11 @@ const translations = {
         'features.rating.title': 'Valutazione Keto',
         'features.rating.desc': 'Sistema da 1 a 5 stelle basato sui carboidrati netti per 100g',
         'features.history.title': 'Cronologia',
-        'features.history.desc': 'Salva automaticamente gli ultimi 50 prodotti scansionati',
+        'features.history.desc': 'Ogni prodotto scansionato, salvato con i tuoi preferiti',
         'features.community.title': 'Community',
         'features.community.desc': 'Vedi le scansioni recenti degli altri utenti in tempo reale',
         'features.language.title': 'Multilingua',
-        'features.language.desc': 'Disponibile in 10 lingue. Cambia con un tocco',
+        'features.language.desc': 'Disponibile in 9 lingue. Cambia con un tocco',
 
         // How it works
         'howItWorks.badge': 'Come Funziona',
@@ -548,23 +478,14 @@ const translations = {
         'rating.r1.desc': 'Non adatto alla dieta keto',
 
         // Testimonials
-        'testimonials.badge': 'Testimonianze',
-        'testimonials.title': 'Cosa dicono i nostri utenti',
-        'testimonials.t1.text': 'Questa app ha cambiato il mio modo di fare la spesa. Non perdo più tempo a leggere le etichette, scansiono e basta.',
-        'testimonials.t1.title': 'Utente dal 2024',
-        'testimonials.t2.text': 'Il sistema a stelle è super intuitivo. In pochi secondi so se un prodotto è adatto alla mia dieta. 100% consigliata.',
-        'testimonials.t2.title': 'Keto da 2 anni',
-        'testimonials.t3.text': 'Adoro poter vedere cosa scansionano gli altri utenti. Ho scoperto prodotti keto che non conoscevo grazie alla community.',
-        'testimonials.t3.title': 'Appassionato di keto',
 
         // Download
-        'download.title': 'Scarica Keto Scanner a Solo $1.99',
+        'download.title': 'Scarica Keto Barcode Scanner a Solo $1.99',
         'download.subtitle': 'Pagamento unico, nessun abbonamento. Disponibile ora su iOS e Android.',
         'download.downloadOn': 'Scarica su',
         'download.getItOn': 'Disponibile su',
         'download.comingSoon': 'Prossimamente',
-        'download.promoText': 'Solo fino a fine gennaio 2026. Approfittane ora!',
-        'download.feature1': 'Una tantum $1.99',
+        'download.feature1': 'Pagamento una tantum',
         'download.feature2': 'Nessun abbonamento',
         'download.feature3': 'Aggiornamenti gratuiti',
 
@@ -589,21 +510,8 @@ const translations = {
         'footer.language': 'Lingua:',
         'footer.rights': 'Tutti i diritti riservati.',
         'footer.promoQuestion': 'Vuoi creare le tue ricette keto?',
-        'promo.otherAppTitle': 'Scopri un\'altra App Keto',
-        'promo.otherAppSubtitle': 'Crea le tue ricette keto con l\'IA',
 
         // Promo Modal
-        'promo.badge': 'Offerta di Lancio',
-        'promo.title': 'Appena Sfornato!',
-        'promo.subtitle': 'Keto Scanner è appena stato lanciato',
-        'promo.oneTime': 'Pagamento unico',
-        'promo.feature1': 'Accesso a vita',
-        'promo.feature2': 'Nessun abbonamento',
-        'promo.feature3': 'Aggiornamenti gratuiti per sempre',
-        'promo.urgency': 'Offerta valida fino a fine febbraio!',
-        'promo.subscriptionWarning': 'Da marzo, l\'app passerà ad abbonamento mensile. Paga una sola volta adesso e usa l\'app per sempre senza pagare di nuovo! Approfitta prima che finisca il mese!',
-        'promo.skip': 'Forse dopo',
-        'hero.subscriptionWarning': 'Da marzo, l\'app passerà ad abbonamento mensile. Paga una sola volta adesso e usa l\'app per sempre senza pagare di nuovo! Approfitta prima che finisca il mese!'
     },
     fr: {
         // Nav
@@ -632,9 +540,8 @@ const translations = {
         'hero.title': 'Scannez.<br>Analysez.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Découvrez instantanément si un produit est compatible avec votre régime keto. Scannez le code-barres et obtenez une analyse nutritionnelle complète avec une note de 1 à 5 étoiles.',
         'hero.priceOnce': 'paiement unique',
-        'hero.benefit1': 'Sans abonnement',
+        'hero.benefit1': 'Payez une fois, sans abonnement',
         'hero.benefit2': 'Accès à vie',
-        'hero.promoText': 'Promo Lancement! 80% de réduction jusqu\'à fin janvier',
         'hero.launchMessage': '🎉 Tout juste lancé! Obtenez un accès à vie à ce prix spécial avant qu\'il ne repasse à $10',
         'hero.offerDates': '<i class="fab fa-apple"></i> iOS dès le 26.01.2026 · <i class="fab fa-google-play"></i> Android dès le 27.01.2026',
         'hero.offerUrgency': 'Offre valable jusqu\'à fin janvier. Profitez-en!!',
@@ -660,11 +567,11 @@ const translations = {
         'features.rating.title': 'Note Keto',
         'features.rating.desc': 'Système de 1 à 5 étoiles basé sur les glucides nets par 100g',
         'features.history.title': 'Historique',
-        'features.history.desc': 'Sauvegarde automatiquement les 50 derniers produits scannés',
+        'features.history.desc': 'Chaque produit scanné, enregistré avec vos favoris',
         'features.community.title': 'Communauté',
         'features.community.desc': 'Voyez les scans récents des autres utilisateurs en temps réel',
         'features.language.title': 'Multi-langue',
-        'features.language.desc': 'Disponible en 10 langues. Changez d\'un simple toucher',
+        'features.language.desc': 'Disponible en 9 langues. Changez d\'un simple toucher',
 
         // How it works
         'howItWorks.badge': 'Comment ça marche',
@@ -698,23 +605,14 @@ const translations = {
         'rating.r1.desc': 'Non adapté au régime keto',
 
         // Testimonials
-        'testimonials.badge': 'Témoignages',
-        'testimonials.title': 'Ce que disent nos utilisateurs',
-        'testimonials.t1.text': 'Cette app a changé ma façon de faire les courses. Je ne perds plus de temps à lire les étiquettes, je scanne et c\'est tout.',
-        'testimonials.t1.title': 'Utilisateur depuis 2024',
-        'testimonials.t2.text': 'Le système d\'étoiles est super intuitif. En quelques secondes je sais si un produit convient à mon régime. 100% recommandée.',
-        'testimonials.t2.title': 'Keto depuis 2 ans',
-        'testimonials.t3.text': 'J\'adore pouvoir voir ce que les autres utilisateurs scannent. J\'ai découvert des produits keto que je ne connaissais pas grâce à la communauté.',
-        'testimonials.t3.title': 'Passionné de keto',
 
         // Download
-        'download.title': 'Téléchargez Keto Scanner pour Seulement $1.99',
+        'download.title': 'Téléchargez Keto Barcode Scanner pour Seulement $1.99',
         'download.subtitle': 'Paiement unique, sans abonnement. Disponible maintenant sur iOS et Android.',
         'download.downloadOn': 'Télécharger sur',
         'download.getItOn': 'Disponible sur',
         'download.comingSoon': 'Bientôt',
-        'download.promoText': 'Seulement jusqu\'à fin janvier 2026. Profitez-en maintenant!',
-        'download.feature1': 'Paiement unique $1.99',
+        'download.feature1': 'Achat unique',
         'download.feature2': 'Sans abonnement',
         'download.feature3': 'Mises à jour gratuites',
 
@@ -739,21 +637,8 @@ const translations = {
         'footer.language': 'Langue:',
         'footer.rights': 'Tous droits réservés.',
         'footer.promoQuestion': 'Voulez-vous créer vos propres recettes keto?',
-        'promo.otherAppTitle': 'Découvrez une autre App Keto',
-        'promo.otherAppSubtitle': 'Créez vos propres recettes keto avec l\'IA',
 
         // Promo Modal
-        'promo.badge': 'Offre de Lancement',
-        'promo.title': 'Tout Juste Sorti du Four!',
-        'promo.subtitle': 'Keto Scanner vient de sortir',
-        'promo.oneTime': 'Paiement unique',
-        'promo.feature1': 'Accès à vie',
-        'promo.feature2': 'Sans abonnement',
-        'promo.feature3': 'Mises à jour gratuites pour toujours',
-        'promo.urgency': 'Offre valable jusqu\'à fin février!',
-        'promo.subscriptionWarning': 'À partir de mars, l\'app passera en abonnement mensuel. Payez une seule fois maintenant et utilisez l\'app pour toujours sans repayer! Profitez-en avant la fin du mois!',
-        'promo.skip': 'Peut-être plus tard',
-        'hero.subscriptionWarning': 'À partir de mars, l\'app passera en abonnement mensuel. Payez une seule fois maintenant et utilisez l\'app pour toujours sans repayer! Profitez-en avant la fin du mois!'
     },
     nl: {
         // Nav
@@ -782,9 +667,8 @@ const translations = {
         'hero.title': 'Scan.<br>Analyseer.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Ontdek direct of een product compatibel is met je keto dieet. Scan de barcode en krijg een volledige voedingsanalyse met een 1 tot 5 sterren beoordeling.',
         'hero.priceOnce': 'eenmalig',
-        'hero.benefit1': 'Geen abonnement',
+        'hero.benefit1': 'Eén keer betalen, geen abonnement',
         'hero.benefit2': 'Levenslange toegang',
-        'hero.promoText': 'Lancerings Promo! 80% korting tot eind januari',
         'hero.launchMessage': '🎉 Net gelanceerd! Krijg levenslange toegang voor deze speciale prijs voordat het teruggaat naar $10',
         'hero.offerDates': '<i class="fab fa-apple"></i> iOS vanaf 26.01.2026 · <i class="fab fa-google-play"></i> Android vanaf 27.01.2026',
         'hero.offerUrgency': 'Aanbieding geldig tot eind januari. Profiteer nu!!',
@@ -810,11 +694,11 @@ const translations = {
         'features.rating.title': 'Keto Beoordeling',
         'features.rating.desc': '1 tot 5 sterren systeem gebaseerd op netto koolhydraten per 100g',
         'features.history.title': 'Geschiedenis',
-        'features.history.desc': 'Slaat automatisch de laatste 50 gescande producten op',
+        'features.history.desc': 'Elk gescand product, bewaard met je favorieten',
         'features.community.title': 'Community',
         'features.community.desc': 'Bekijk recente scans van andere gebruikers in realtime',
         'features.language.title': 'Meertalig',
-        'features.language.desc': 'Beschikbaar in 10 talen. Wissel met één tik',
+        'features.language.desc': 'Beschikbaar in 9 talen. Wissel met één tik',
 
         // How it works
         'howItWorks.badge': 'Hoe het werkt',
@@ -848,23 +732,14 @@ const translations = {
         'rating.r1.desc': 'Niet geschikt voor keto dieet',
 
         // Testimonials
-        'testimonials.badge': 'Getuigenissen',
-        'testimonials.title': 'Wat onze gebruikers zeggen',
-        'testimonials.t1.text': 'Deze app heeft mijn manier van boodschappen doen veranderd. Ik verspil geen tijd meer aan het lezen van etiketten, ik scan gewoon.',
-        'testimonials.t1.title': 'Gebruiker sinds 2024',
-        'testimonials.t2.text': 'Het sterrensysteem is super intuïtief. In seconden weet ik of een product bij mijn dieet past. 100% aanbevolen.',
-        'testimonials.t2.title': 'Keto sinds 2 jaar',
-        'testimonials.t3.text': 'Ik vind het geweldig om te zien wat andere gebruikers scannen. Ik heb keto producten ontdekt die ik niet kende dankzij de community.',
-        'testimonials.t3.title': 'Keto enthousiasteling',
 
         // Download
-        'download.title': 'Download Keto Scanner voor Slechts $1.99',
+        'download.title': 'Download Keto Barcode Scanner voor Slechts $1.99',
         'download.subtitle': 'Eenmalige betaling, geen abonnement. Nu beschikbaar op iOS en Android.',
         'download.downloadOn': 'Download op',
         'download.getItOn': 'Beschikbaar op',
         'download.comingSoon': 'Binnenkort',
-        'download.promoText': 'Alleen tot eind januari 2026. Profiteer nu!',
-        'download.feature1': 'Eenmalig $1.99',
+        'download.feature1': 'Eenmalige aankoop',
         'download.feature2': 'Geen abonnement',
         'download.feature3': 'Gratis updates',
 
@@ -889,21 +764,8 @@ const translations = {
         'footer.language': 'Taal:',
         'footer.rights': 'Alle rechten voorbehouden.',
         'footer.promoQuestion': 'Wil je je eigen keto-recepten maken?',
-        'promo.otherAppTitle': 'Ontdek een andere Keto App',
-        'promo.otherAppSubtitle': 'Maak je eigen keto-recepten met AI',
 
         // Promo Modal
-        'promo.badge': 'Lanceringsaanbieding',
-        'promo.title': 'Vers uit de Oven!',
-        'promo.subtitle': 'Keto Scanner is net gelanceerd',
-        'promo.oneTime': 'Eenmalige betaling',
-        'promo.feature1': 'Levenslange toegang',
-        'promo.feature2': 'Geen abonnementen',
-        'promo.feature3': 'Gratis updates voor altijd',
-        'promo.urgency': 'Aanbieding geldig tot eind februari!',
-        'promo.subscriptionWarning': 'Vanaf maart gaat de app over naar een maandelijks abonnement. Betaal nu eenmalig en gebruik de app voor altijd zonder opnieuw te betalen! Profiteer voordat de maand eindigt!',
-        'promo.skip': 'Misschien later',
-        'hero.subscriptionWarning': 'Vanaf maart gaat de app over naar een maandelijks abonnement. Betaal nu eenmalig en gebruik de app voor altijd zonder opnieuw te betalen! Profiteer voordat de maand eindigt!'
     },
     pt: {
         // Nav
@@ -932,9 +794,8 @@ const translations = {
         'hero.title': 'Escaneie.<br>Analise.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Descubra instantaneamente se um produto é compatível com sua dieta keto. Escaneie o código de barras e obtenha uma análise nutricional completa com avaliação de 1 a 5 estrelas.',
         'hero.priceOnce': 'pagamento único',
-        'hero.benefit1': 'Sem assinaturas',
+        'hero.benefit1': 'Paga uma vez, sem assinatura',
         'hero.benefit2': 'Acesso vitalício',
-        'hero.promoText': 'Promo de Lançamento! 80% de desconto até final de janeiro',
         'hero.launchMessage': '🎉 Acabamos de lançar! Obtenha acesso vitalício por este preço especial antes de voltar a $10',
         'hero.offerDates': '<i class="fab fa-apple"></i> iOS desde 26.01.2026 · <i class="fab fa-google-play"></i> Android desde 27.01.2026',
         'hero.offerUrgency': 'Oferta válida até final de janeiro. Aproveite!!',
@@ -960,11 +821,11 @@ const translations = {
         'features.rating.title': 'Avaliação Keto',
         'features.rating.desc': 'Sistema de 1 a 5 estrelas baseado em carboidratos líquidos por 100g',
         'features.history.title': 'Histórico',
-        'features.history.desc': 'Salva automaticamente os últimos 50 produtos escaneados',
+        'features.history.desc': 'Cada produto escaneado, guardado com os seus favoritos',
         'features.community.title': 'Comunidade',
         'features.community.desc': 'Veja os escaneamentos recentes de outros usuários em tempo real',
         'features.language.title': 'Multi-idioma',
-        'features.language.desc': 'Disponível em 10 idiomas. Mude com um toque',
+        'features.language.desc': 'Disponível em 9 idiomas. Mude com um toque',
 
         // How it works
         'howItWorks.badge': 'Como Funciona',
@@ -998,23 +859,14 @@ const translations = {
         'rating.r1.desc': 'Não adequado para dieta keto',
 
         // Testimonials
-        'testimonials.badge': 'Depoimentos',
-        'testimonials.title': 'O que nossos usuários dizem',
-        'testimonials.t1.text': 'Este app mudou minha forma de fazer compras. Não perco mais tempo lendo rótulos, simplesmente escaneio e pronto.',
-        'testimonials.t1.title': 'Usuário desde 2024',
-        'testimonials.t2.text': 'O sistema de estrelas é super intuitivo. Em segundos sei se um produto serve para minha dieta. 100% recomendado.',
-        'testimonials.t2.title': 'Keto há 2 anos',
-        'testimonials.t3.text': 'Adoro poder ver o que outros usuários estão escaneando. Descobri produtos keto que não conhecia graças à comunidade.',
-        'testimonials.t3.title': 'Entusiasta do keto',
 
         // Download
-        'download.title': 'Baixe Keto Scanner por Apenas $1.99',
+        'download.title': 'Baixe Keto Barcode Scanner por Apenas $1.99',
         'download.subtitle': 'Pagamento único, sem assinaturas. Disponível agora no iOS e Android.',
         'download.downloadOn': 'Baixar na',
         'download.getItOn': 'Disponível no',
         'download.comingSoon': 'Em breve',
-        'download.promoText': 'Só até final de janeiro de 2026. Aproveite agora!',
-        'download.feature1': 'Pagamento único $1.99',
+        'download.feature1': 'Pagamento único',
         'download.feature2': 'Sem assinaturas',
         'download.feature3': 'Atualizações grátis',
 
@@ -1039,21 +891,8 @@ const translations = {
         'footer.language': 'Idioma:',
         'footer.rights': 'Todos os direitos reservados.',
         'footer.promoQuestion': 'Quer criar suas próprias receitas keto?',
-        'promo.otherAppTitle': 'Descubra outro App Keto',
-        'promo.otherAppSubtitle': 'Crie suas próprias receitas keto com IA',
 
         // Promo Modal
-        'promo.badge': 'Oferta de Lançamento',
-        'promo.title': 'Acabou de Sair do Forno!',
-        'promo.subtitle': 'Keto Scanner acabou de ser lançado',
-        'promo.oneTime': 'Pagamento único',
-        'promo.feature1': 'Acesso vitalício',
-        'promo.feature2': 'Sem assinaturas',
-        'promo.feature3': 'Atualizações gratuitas para sempre',
-        'promo.urgency': 'Oferta válida até o final de fevereiro!',
-        'promo.subscriptionWarning': 'A partir de março, o app mudará para assinatura mensal. Pague uma única vez agora e use o app para sempre sem pagar novamente! Aproveite antes que o mês termine!',
-        'promo.skip': 'Talvez depois',
-        'hero.subscriptionWarning': 'A partir de março, o app mudará para assinatura mensal. Pague uma única vez agora e use o app para sempre sem pagar novamente! Aproveite antes que o mês termine!'
     },
     pl: {
         // Nav
@@ -1082,9 +921,8 @@ const translations = {
         'hero.title': 'Skanuj.<br>Analizuj.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Natychmiast dowiedz się, czy produkt jest kompatybilny z dietą keto. Zeskanuj kod kreskowy i uzyskaj pełną analizę wartości odżywczych z oceną od 1 do 5 gwiazdek.',
         'hero.priceOnce': 'jednorazowo',
-        'hero.benefit1': 'Bez subskrypcji',
+        'hero.benefit1': 'Płacisz raz, bez subskrypcji',
         'hero.benefit2': 'Dożywotni dostęp',
-        'hero.promoText': 'Promocja Premierowa! 80% zniżki do końca lutego',
         'hero.launchMessage': '🎉 Właśnie wystartowaliśmy! Uzyskaj dożywotni dostęp w tej specjalnej cenie zanim wróci do $10',
         'hero.offerDates': '<i class="fab fa-apple"></i> iOS od 26.01.2026 · <i class="fab fa-google-play"></i> Android od 27.01.2026',
         'hero.offerUrgency': 'Oferta ważna do końca lutego. Skorzystaj!!',
@@ -1110,11 +948,11 @@ const translations = {
         'features.rating.title': 'Ocena Keto',
         'features.rating.desc': 'System od 1 do 5 gwiazdek oparty na węglowodanach netto na 100g',
         'features.history.title': 'Historia',
-        'features.history.desc': 'Automatycznie zapisuje ostatnie 50 zeskanowanych produktów',
+        'features.history.desc': 'Każdy zeskanowany produkt, zapisany razem z ulubionymi',
         'features.community.title': 'Społeczność',
         'features.community.desc': 'Zobacz ostatnie skany innych użytkowników w czasie rzeczywistym',
         'features.language.title': 'Wielojęzyczny',
-        'features.language.desc': 'Dostępny w 10 językach. Zmień jednym dotknięciem',
+        'features.language.desc': 'Dostępny w 9 językach. Zmień jednym dotknięciem',
 
         // How it works
         'howItWorks.badge': 'Jak to działa',
@@ -1148,23 +986,14 @@ const translations = {
         'rating.r1.desc': 'Nieodpowiedni dla diety keto',
 
         // Testimonials
-        'testimonials.badge': 'Opinie',
-        'testimonials.title': 'Co mówią nasi użytkownicy',
-        'testimonials.t1.text': 'Ta aplikacja zmieniła mój sposób robienia zakupów. Nie tracę już czasu na czytanie etykiet, po prostu skanuję.',
-        'testimonials.t1.title': 'Użytkownik od 2024',
-        'testimonials.t2.text': 'System gwiazdek jest super intuicyjny. W sekundy wiem, czy produkt pasuje do mojej diety. 100% polecam.',
-        'testimonials.t2.title': 'Keto od 2 lat',
-        'testimonials.t3.text': 'Uwielbiam widzieć, co skanują inni użytkownicy. Odkryłem produkty keto, których nie znałem dzięki społeczności.',
-        'testimonials.t3.title': 'Entuzjasta keto',
 
         // Download
-        'download.title': 'Pobierz Keto Scanner za Tylko $1.99',
+        'download.title': 'Pobierz Keto Barcode Scanner za Tylko $1.99',
         'download.subtitle': 'Jednorazowa płatność, bez subskrypcji. Dostępne teraz na iOS i Android.',
         'download.downloadOn': 'Pobierz z',
         'download.getItOn': 'Dostępne w',
         'download.comingSoon': 'Wkrótce',
-        'download.promoText': 'Promocja Premierowa! 80% zniżki do końca lutego',
-        'download.feature1': 'Jednorazowo $1.99',
+        'download.feature1': 'Jednorazowy zakup',
         'download.feature2': 'Bez subskrypcji',
         'download.feature3': 'Darmowe aktualizacje',
 
@@ -1189,21 +1018,8 @@ const translations = {
         'footer.language': 'Język:',
         'footer.rights': 'Wszelkie prawa zastrzeżone.',
         'footer.promoQuestion': 'Chcesz tworzyć własne przepisy keto?',
-        'promo.otherAppTitle': 'Odkryj inną aplikację Keto',
-        'promo.otherAppSubtitle': 'Twórz własne przepisy keto z AI',
 
         // Promo Modal
-        'promo.badge': 'Oferta Premierowa',
-        'promo.title': 'Prosto z Pieca!',
-        'promo.subtitle': 'Keto Scanner właśnie wystartował',
-        'promo.oneTime': 'Jednorazowa płatność',
-        'promo.feature1': 'Dożywotni dostęp',
-        'promo.feature2': 'Bez subskrypcji',
-        'promo.feature3': 'Darmowe aktualizacje na zawsze',
-        'promo.urgency': 'Oferta ważna do końca lutego!',
-        'promo.subscriptionWarning': 'Od marca aplikacja przejdzie na miesięczną subskrypcję. Zapłać raz teraz i używaj aplikacji na zawsze bez ponownego płacenia! Skorzystaj zanim skończy się miesiąc!',
-        'promo.skip': 'Może później',
-        'hero.subscriptionWarning': 'Od marca aplikacja przejdzie na miesięczną subskrypcję. Zapłać raz teraz i używaj aplikacji na zawsze bez ponownego płacenia! Skorzystaj zanim skończy się miesiąc!'
     },
     ru: {
         // Nav
@@ -1232,9 +1048,8 @@ const translations = {
         'hero.title': 'Сканируй.<br>Анализируй.<br><span class="gradient-text">Decide Keto</span> 🥑',
         'hero.description': 'Мгновенно узнайте, совместим ли продукт с вашей кето-диетой. Отсканируйте штрих-код и получите полный анализ питательной ценности с оценкой от 1 до 5 звёзд.',
         'hero.priceOnce': 'разовый платёж',
-        'hero.benefit1': 'Без подписок',
+        'hero.benefit1': 'Платишь один раз, без подписки',
         'hero.benefit2': 'Пожизненный доступ',
-        'hero.promoText': 'Акция запуска! Скидка 80% до конца февраля',
         'hero.launchMessage': '🎉 Только что запустились! Получите пожизненный доступ по специальной цене, пока она не вернулась к $10',
         'hero.offerDates': '<i class="fab fa-apple"></i> iOS с 26.01.2026 · <i class="fab fa-google-play"></i> Android с 27.01.2026',
         'hero.offerUrgency': 'Предложение действует до конца февраля. Успейте!!',
@@ -1260,11 +1075,11 @@ const translations = {
         'features.rating.title': 'Кето-рейтинг',
         'features.rating.desc': 'Система от 1 до 5 звёзд на основе чистых углеводов на 100г',
         'features.history.title': 'История',
-        'features.history.desc': 'Автоматически сохраняет последние 50 отсканированных продуктов',
+        'features.history.desc': 'Каждый отсканированный продукт сохраняется вместе с избранным',
         'features.community.title': 'Сообщество',
         'features.community.desc': 'Смотрите недавние сканы других пользователей в реальном времени',
         'features.language.title': 'Мультиязычность',
-        'features.language.desc': 'Доступен на 10 языках. Переключайте одним касанием',
+        'features.language.desc': 'Доступен на 9 языках. Переключайте одним касанием',
 
         // How it works
         'howItWorks.badge': 'Как это работает',
@@ -1298,23 +1113,14 @@ const translations = {
         'rating.r1.desc': 'Не подходит для кето-диеты',
 
         // Testimonials
-        'testimonials.badge': 'Отзывы',
-        'testimonials.title': 'Что говорят наши пользователи',
-        'testimonials.t1.text': 'Это приложение изменило мой подход к покупкам. Я больше не трачу время на чтение этикеток, просто сканирую.',
-        'testimonials.t1.title': 'Пользователь с 2024',
-        'testimonials.t2.text': 'Система звёзд супер интуитивная. За секунды я знаю, подходит ли продукт для моей диеты. 100% рекомендую.',
-        'testimonials.t2.title': 'На кето 2 года',
-        'testimonials.t3.text': 'Обожаю видеть, что сканируют другие пользователи. Открыл для себя кето-продукты, о которых не знал благодаря сообществу.',
-        'testimonials.t3.title': 'Энтузиаст кето',
 
         // Download
-        'download.title': 'Скачайте Keto Scanner всего за $1.99',
+        'download.title': 'Скачайте Keto Barcode Scanner всего за $1.99',
         'download.subtitle': 'Разовый платёж, без подписок. Доступно сейчас на iOS и Android.',
         'download.downloadOn': 'Скачать в',
         'download.getItOn': 'Доступно в',
         'download.comingSoon': 'Скоро',
-        'download.promoText': 'Акция запуска! Скидка 80% до конца февраля',
-        'download.feature1': 'Разово $1.99',
+        'download.feature1': 'Разовая покупка',
         'download.feature2': 'Без подписок',
         'download.feature3': 'Бесплатные обновления',
 
@@ -1339,21 +1145,8 @@ const translations = {
         'footer.language': 'Язык:',
         'footer.rights': 'Все права защищены.',
         'footer.promoQuestion': 'Хотите создавать свои собственные кето-рецепты?',
-        'promo.otherAppTitle': 'Откройте другое Keto приложение',
-        'promo.otherAppSubtitle': 'Создавайте свои кето-рецепты с ИИ',
 
         // Promo Modal
-        'promo.badge': 'Стартовое Предложение',
-        'promo.title': 'Только из Печи!',
-        'promo.subtitle': 'Keto Scanner только что запущен',
-        'promo.oneTime': 'Единоразовый платёж',
-        'promo.feature1': 'Пожизненный доступ',
-        'promo.feature2': 'Без подписок',
-        'promo.feature3': 'Бесплатные обновления навсегда',
-        'promo.urgency': 'Предложение действует до конца февраля!',
-        'promo.subscriptionWarning': 'С марта приложение перейдёт на ежемесячную подписку. Заплатите один раз сейчас и пользуйтесь приложением вечно без повторных платежей! Успейте до конца месяца!',
-        'promo.skip': 'Может позже',
-        'hero.subscriptionWarning': 'С марта приложение перейдёт на ежемесячную подписку. Заплатите один раз сейчас и пользуйтесь приложением вечно без повторных платежей! Успейте до конца месяца!'
     }
 };
 
@@ -1370,21 +1163,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initCounterAnimation();
     initLanguageSelector();
     initHeroCarousel();
-    // initPromoModal();
 });
-
-/**
- * Promo Modal - Show on page load
- */
-function initPromoModal() {
-    const promoModal = document.getElementById('promoModal');
-    if (!promoModal) return;
-
-    // Show modal after a short delay for better UX
-    setTimeout(() => {
-        openModal('promo');
-    }, 1500);
-}
 
 /**
  * Hero Carousel
@@ -1551,15 +1330,15 @@ function updatePageLanguage(lang) {
 
     // Update page title
     const titles = {
-        en: 'Keto Scanner - Best Keto Scan App | Barcode Scanner for Keto Diet',
-        es: 'Keto Scanner - La Mejor App de Escaneo Keto | Escáner de Código de Barras',
-        de: 'Keto Scanner - Beste Keto Scan App | Barcode Scanner für Keto-Diät',
-        it: 'Keto Scanner - Migliore App Keto Scan | Scanner Codici a Barre per Dieta Keto',
-        fr: 'Keto Scanner - Meilleure App Keto Scan | Scanner Code-Barres pour Régime Keto',
-        nl: 'Keto Scanner - Beste Keto Scan App | Barcode Scanner voor Keto Dieet',
-        pt: 'Keto Scanner - Melhor App Keto Scan | Scanner de Código de Barras para Dieta Keto',
-        pl: 'Keto Scanner - Najlepsza Aplikacja Keto Scan | Skaner Kodów Kreskowych dla Diety Keto',
-        ru: 'Keto Scanner - Лучшее приложение Keto Scan | Сканер штрих-кодов для кето-диеты'
+        en: 'Keto Barcode Scanner - Best Keto Scan App | Barcode Scanner for Keto Diet',
+        es: 'Keto Barcode Scanner - La Mejor App de Escaneo Keto | Escáner de Código de Barras',
+        de: 'Keto Barcode Scanner - Beste Keto Scan App | Barcode Scanner für Keto-Diät',
+        it: 'Keto Barcode Scanner - Migliore App Keto Scan | Scanner Codici a Barre per Dieta Keto',
+        fr: 'Keto Barcode Scanner - Meilleure App Keto Scan | Scanner Code-Barres pour Régime Keto',
+        nl: 'Keto Barcode Scanner - Beste Keto Scan App | Barcode Scanner voor Keto Dieet',
+        pt: 'Keto Barcode Scanner - Melhor App Keto Scan | Scanner de Código de Barras para Dieta Keto',
+        pl: 'Keto Barcode Scanner - Najlepsza Aplikacja Keto Scan | Skaner Kodów Kreskowych dla Diety Keto',
+        ru: 'Keto Barcode Scanner - Лучшее приложение Keto Scan | Сканер штрих-кодов для кето-диеты'
     };
     document.title = titles[lang] || titles.en;
 }
