@@ -4568,3 +4568,87 @@ body.has-smart-banner .navbar {
     .hero-abajo > * { width: 100%; max-width: 100%; }
     .hero-abajo .hero-cta { justify-content: center; }
 }
+
+/* ============================================
+   El lenguaje de la app (14/09/2026): papel del icono, verde hoja, teal
+   como acento y Fredoka en los titulos. Sobrescribe lo de arriba.
+   ============================================ */
+:root {
+    --primary: #21A0B1;
+    --primary-dark: #0F6E7C;
+    --primary-darker: #0B4F5A;
+    --primary-light: #CDEFF3;
+    --bg-light: #FBF7EA;
+    --bg-green-light: #E3F1DF;
+    --bg-blue-light: #E6F3F5;
+    --bg-cyan-light: #E6F3F5;
+    --text-dark: #37474F;
+    --text-medium: #455A64;
+    --text-light: #546E7A;
+    --text-muted: #78909C;
+    --shadow: rgba(15, 110, 124, 0.18);
+    --verde: #1E8E3E;
+    --papel: #FDFAE9;
+}
+body { background: var(--papel); }
+
+h1, h2, h3, h4, .section-badge, .logo-text, .store-button, .store-button-small,
+.benefit-pill, .download-feature, .feature-card h3, .step-card h3, .rating-item h3,
+.faq-question, .modal h2, .modal h3, .its-keto-title {
+    font-family: 'Fredoka', 'Inter', sans-serif;
+}
+h2 { color: var(--text-light); font-weight: 600; letter-spacing: -0.01em; }
+h3 { color: var(--text-medium); font-weight: 600; }
+.text-green, .keto-word { color: var(--verde) !important; }
+.gradient-text {
+    background: linear-gradient(135deg, #21A0B1, #0F6E7C);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+}
+.section-badge {
+    background: rgba(33, 160, 177, 0.12);
+    color: var(--primary-dark);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+/* Hero: el papel del icono en vez del arcoiris pastel */
+.hero {
+    background: linear-gradient(160deg, #E3F1DF 0%, #FBF7EA 55%, #FDFAE9 100%);
+    background-size: auto;
+    animation: none;
+}
+.hero h1 { font-weight: 600; letter-spacing: -0.01em; color: var(--text-light); }
+.hero-visual::before { background: radial-gradient(circle, rgba(33,160,177,0.22), rgba(30,142,62,0.10), transparent 70%); }
+.hero-wave svg path { fill: #FDFAE9; }
+.benefit-pill { background: rgba(255,255,255,0.7); border: 1px solid rgba(84,110,122,0.14); color: var(--text-medium); }
+.nav-links a { color: var(--text-light); font-family: 'Fredoka', 'Inter', sans-serif; font-weight: 600; }
+.nav-links a:hover, .nav-links a.active { background: rgba(33,160,177,0.12); color: var(--primary-dark); }
+.hero-price { color: var(--primary-dark); }
+
+/* Secciones sobre el papel, sin blancos puros */
+.features, .additives-section, .rating-system, .how-it-works { background: transparent; }
+.app-screenshots { background: linear-gradient(180deg, #FDFAE9, #F3F5E9); }
+.is-it-keto-section { background: #E3F1DF; }
+.download { background: linear-gradient(135deg, #0F6E7C, #21A0B1); }
+.footer { background: #2E3A38; }
+
+/* Tarjetas: cristal sobre papel */
+.feature-card, .step-card, .additive-card, .rating-item, .faq-item {
+    background: rgba(255,255,255,0.62);
+    border: 1px solid rgba(255,255,255,0.8);
+    box-shadow: 0 8px 30px rgba(15,110,124,0.08);
+}
+.feature-card h3, .step-card h3 { color: var(--text-medium); }
+
+/* El icono de la app junto al titulo de las capturas */
+.titulo-con-icono { display: inline-flex; align-items: center; gap: 16px; }
+.titulo-con-icono img { width: 56px; height: 56px; border-radius: 14px; box-shadow: 0 6px 18px rgba(15,110,124,0.18); }
+@media (max-width: 768px) { .titulo-con-icono img { width: 44px; height: 44px; border-radius: 11px; } }
+
+/* En escritorio, el icono con el nombre a la izquierda de la barra */
+@media (min-width: 769px) {
+    .nav-brand { display: inline-flex; }
+    .navbar .container { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .nav-brand .logo-img { width: 40px; height: 40px; border-radius: 11px; }
+    .nav-brand .logo-text { font-size: 18px; color: var(--text-light); }
+}
