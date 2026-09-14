@@ -1794,15 +1794,22 @@ console.log('%c Download the app and start your keto journey today! ', 'color: #
 
     // Como en la landing de horas: la cabecera limpia; el banner aparece al
     // bajar la mitad de la pagina, flotando abajo.
-    let mostrado = false;
+    // Se ve en cuanto se pasa el hero, y se esconde al llegar al pie (para
+    // no tapar los enlaces). En iOS lleva a App Store; en Android, a Play.
+    const hero = document.querySelector('.hero');
+    const footer = document.querySelector('.footer');
+    let cerrado = false;
     function mirar() {
-        if (mostrado) return;
-        const recorrido = window.scrollY / Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
-        if (recorrido > 0.5) { mostrado = true; banner.classList.add('show'); window.removeEventListener('scroll', mirar); }
+        if (cerrado) return;
+        const pasadoElHero = window.scrollY > (hero ? hero.offsetHeight * 0.6 : 400);
+        const pieALaVista = footer ? footer.getBoundingClientRect().top < window.innerHeight - 40 : false;
+        banner.classList.toggle('show', pasadoElHero && !pieALaVista);
     }
     window.addEventListener('scroll', mirar, { passive: true });
+    mirar();
 
     closeBtn.addEventListener('click', function() {
+        cerrado = true;
         banner.classList.remove('show');
         sessionStorage.setItem('smartBannerClosed', '1');
     });
