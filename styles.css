@@ -4782,3 +4782,20 @@ html { background: #E8F0E6; }
     .hero-sellos { margin-top: 6px; }
 }
 @media (max-width: 480px) { .hero-telefonos { height: 400px; } .telefono { width: 176px; } }
+
+/* Hero v4.2: arriba el mismo crema que la pagina (sin corte), sellos solo en escritorio */
+html { background: #FDFAE9; }
+.hero::before { background: linear-gradient(180deg, #FDFAE9 0%, rgba(253,250,233,.94) 14%, rgba(253,250,233,.82) 40%, rgba(253,250,233,.40) 72%, rgba(253,250,233,0) 100%); }
+@media (min-width: 1025px) {
+    .hero::before { background:
+        linear-gradient(180deg, #FDFAE9 0%, rgba(253,250,233,0) 18%),
+        radial-gradient(ellipse 70% 80% at 22% 45%, rgba(253,250,233,.92) 0%, rgba(253,250,233,.78) 40%, rgba(253,250,233,.35) 70%, rgba(253,250,233,0) 100%); }
+}
+@media (max-width: 1024px) {
+    .hero-sellos { display: none; }
+    .hero-telefonos { height: 500px; }
+    .telefono { width: 210px; }
+    .telefono.t1 { left: 2%; top: 0; } .telefono.t2 { right: 2%; top: 44px; }
+    .hero-v3 .hero-abajo { margin-top: 6px; }
+}
+@media (max-width: 480px) { .hero-telefonos { height: 470px; } .telefono { width: 190px; } }
