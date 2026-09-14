@@ -4816,3 +4816,6 @@ html { background: #FDFAE9; }
 @media (min-width: 1025px) { .hero { padding-top: 150px; } }
 @media (max-width: 1024px) { .hero { padding-top: 56px; } }
 @media (min-width: 1025px) { .hero-section-nav { top: 28px; } .hero { padding-top: 170px; } }
+/* El banner: ancho calculado, no 100% + margenes (se salia por la derecha) */
+.smart-banner { width: auto; left: 12px; right: 12px; border-bottom: 0; padding: 10px 12px; }
+.smart-banner-info { flex: 1; min-width: 0; }
