@@ -4814,3 +4814,4 @@ html { background: #FDFAE9; }
 /* Las manchas de color del hero antiguo (cian, lila) son lo que azuleaba arriba: fuera */
 .hero-background { display: none !important; }
 @media (min-width: 1025px) { .hero { padding-top: 150px; } }
+@media (max-width: 1024px) { .hero { padding-top: 56px; } }
