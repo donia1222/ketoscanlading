@@ -4821,3 +4821,5 @@ html { background: #FDFAE9; }
 .smart-banner-info { flex: 1; min-width: 0; }
 /* En movil, los botones de tienda del hero sobran: el banner de abajo hace ese trabajo */
 @media (max-width: 1024px) { .hero-v3 .hero-cta { display: none; } body { padding-bottom: 96px; } }
+/* En movil, el precio del hero no se ve (lo dice el banner), pero deja su sitio */
+@media (max-width: 1024px) { .hero-v3 .hero-price { visibility: hidden; } }
